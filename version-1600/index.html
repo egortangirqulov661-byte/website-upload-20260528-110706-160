@@ -1,38 +1,28 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
-<title>Film 影库 · 纯静态电影站</title>
-  <meta name="description" content="以纯静态方式呈现的电影与剧集片库，支持分类浏览、热播排行、详情页与本地 HLS 播放。">
-  <meta name="keywords" content="Film影库,电影,剧集,动画,分类,排行,播放,静态网站">
+  <title>Film 褰卞簱 路 绾潤鎬佺數褰辩珯</title>
+  <meta name="description" content="浠ョ函闈欐€佹柟寮忓憟鐜扮殑鐢靛奖涓庡墽闆嗙墖搴擄紝鏀寔鍒嗙被娴忚銆佺儹鎾帓琛屻€佽鎯呴〉涓庢湰鍦?HLS 鎾斁銆?>
+  <meta name="keywords" content="Film褰卞簱,鐢靛奖,鍓ч泦,鍔ㄧ敾,鍒嗙被,鎺掕,鎾斁,闈欐€佺綉绔?>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
   <script defer src="assets/hls.min.js"></script>
   <script defer src="assets/app.js"></script>
   <script defer src="assets/movies-data.js"></script>
-  <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-</head>
+  </head>
 <body>
 
     <header class="topbar">
       <div class="container nav">
-        <a class="logo" href="index.html"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="3" stroke="currentColor" stroke-width="2"/><path d="M3 8h18M3 16h18M8 4v16M16 4v16" stroke="currentColor" stroke-width="2"/></svg></span><span>Film 影库</span></a>
-        <button class="btn btn-ghost mobile-toggle" type="button">菜单</button>
-        <nav class="nav-links"><a class="active" href="index.html">首页</a><a class="" href="search.html">搜索</a><a class="" href="rank.html">热播榜</a><a class="" href="category-action.html">动作</a><a class="" href="category-sci-fi.html">科幻</a><a class="" href="category-drama.html">剧情</a></nav>
+        <a class="logo" href="index.html"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="3" stroke="currentColor" stroke-width="2"/><path d="M3 8h18M3 16h18M8 4v16M16 4v16" stroke="currentColor" stroke-width="2"/></svg></span><span>Film 褰卞簱</span></a>
+        <button class="btn btn-ghost mobile-toggle" type="button">鑿滃崟</button>
+        <nav class="nav-links"><a class="active" href="index.html">棣栭〉</a><a class="" href="search.html">鎼滅储</a><a class="" href="rank.html">鐑挱姒?/a><a class="" href="category-action.html">鍔ㄤ綔</a><a class="" href="category-sci-fi.html">绉戝够</a><a class="" href="category-drama.html">鍓ф儏</a></nav>
         <div class="nav-actions">
         <form class="search-mini" action="search.html" method="get">
           <svg class="search-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          <input type="search" name="q" placeholder="搜索片名、类型、年份、标签…" value="">
+          <input type="search" name="q" placeholder="鎼滅储鐗囧悕銆佺被鍨嬨€佸勾浠姐€佹爣绛锯€? value="">
         </form></div>
       </div>
     </header>
@@ -44,19 +34,19 @@ var _hmt = _hmt || [];
           <div class="hero-copy">
             <div>
               <div class="kicker">Pure Static Cinema</div>
-              <h1>静态搭建 <span>电影</span> 片库</h1>
-              <p>首页以大幅首屏、推荐卡片、热播榜与分类入口组成完整导航结构，全部影片内容直接写入静态页面，方便收录与浏览。</p>
+              <h1>闈欐€佹惌寤?<span>鐢靛奖</span> 鐗囧簱</h1>
+              <p>棣栭〉浠ュぇ骞呴灞忋€佹帹鑽愬崱鐗囥€佺儹鎾涓庡垎绫诲叆鍙ｇ粍鎴愬畬鏁村鑸粨鏋勶紝鍏ㄩ儴褰辩墖鍐呭鐩存帴鍐欏叆闈欐€侀〉闈紝鏂逛究鏀跺綍涓庢祻瑙堛€?/p>
             </div>
             <div>
               <div class="hero-actions">
-                <a class="btn btn-primary" href="rank.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 热播榜</a>
-                <a class="btn btn-ghost" href="search.html">站内搜索</a>
+                <a class="btn btn-primary" href="rank.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 鐑挱姒?/a>
+                <a class="btn btn-ghost" href="search.html">绔欏唴鎼滅储</a>
               </div>
               <div class="hero-meta" style="margin-top:14px;">
-                <span class="pill">2000 部影片</span>
-                <span class="pill">10 个分类页</span>
-                <span class="pill">本地 HLS 播放</span>
-                <span class="pill">静态 HTML</span>
+                <span class="pill">2000 閮ㄥ奖鐗?/span>
+                <span class="pill">10 涓垎绫婚〉</span>
+                <span class="pill">鏈湴 HLS 鎾斁</span>
+                <span class="pill">闈欐€?HTML</span>
               </div>
             </div>
           </div>
@@ -66,110 +56,110 @@ var _hmt = _hmt || [];
     <div class="slide active">
       <div class="poster-block" style="background: linear-gradient(135deg, #1d4ed8, #0f172a);">
         <div class="poster-badge">
-          <strong>旋涡1949</strong>
-          <span>2029 · 电影</span>
+          <strong>鏃嬫丁1949</strong>
+          <span>2029 路 鐢靛奖</span>
         </div>
       </div>
       <div class="slide-copy">
-        <span class="chip">悬疑, 历史</span>
-        <h3>旋涡1949</h3>
-        <p>1949年解放前夕的上海，一对失散十年的兄弟重逢，一个是地下党金融专家，一个是国民党经济督察，而他们的命运被一笔消失的黄金死死缠住。</p>
+        <span class="chip">鎮枒, 鍘嗗彶</span>
+        <h3>鏃嬫丁1949</h3>
+        <p>1949骞磋В鏀惧墠澶曠殑涓婃捣锛屼竴瀵瑰け鏁ｅ崄骞寸殑鍏勫紵閲嶉€紝涓€涓槸鍦颁笅鍏氶噾铻嶄笓瀹讹紝涓€涓槸鍥芥皯鍏氱粡娴庣潱瀵燂紝鑰屼粬浠殑鍛借繍琚竴绗旀秷澶辩殑榛勯噾姝绘缂犱綇銆?/p>
         <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;">
-          <a class="btn btn-primary" href="movie-1734.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 立即查看</a>
-          <a class="btn btn-ghost" href="search.html?q=旋涡1949">站内搜索</a>
+          <a class="btn btn-primary" href="movie-1734.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 绔嬪嵆鏌ョ湅</a>
+          <a class="btn btn-ghost" href="search.html?q=鏃嬫丁1949">绔欏唴鎼滅储</a>
         </div>
       </div>
     </div>
     <div class="slide ">
       <div class="poster-block" style="background: linear-gradient(135deg, #db2777, #111827);">
         <div class="poster-badge">
-          <strong>为此为止</strong>
-          <span>2029 · 电影</span>
+          <strong>涓烘涓烘</strong>
+          <span>2029 路 鐢靛奖</span>
         </div>
       </div>
       <div class="slide-copy">
-        <span class="chip">剧情 / 犯罪</span>
-        <h3>为此为止</h3>
-        <p>两大黑帮谈判，最后达成的共识是：杀了那个和事佬。</p>
+        <span class="chip">鍓ф儏 / 鐘姜</span>
+        <h3>涓烘涓烘</h3>
+        <p>涓ゅぇ榛戝府璋堝垽锛屾渶鍚庤揪鎴愮殑鍏辫瘑鏄細鏉€浜嗛偅涓拰浜嬩浆銆?/p>
         <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;">
-          <a class="btn btn-primary" href="movie-1157.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 立即查看</a>
-          <a class="btn btn-ghost" href="search.html?q=为此为止">站内搜索</a>
+          <a class="btn btn-primary" href="movie-1157.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 绔嬪嵆鏌ョ湅</a>
+          <a class="btn btn-ghost" href="search.html?q=涓烘涓烘">绔欏唴鎼滅储</a>
         </div>
       </div>
     </div>
     <div class="slide ">
       <div class="poster-block" style="background: linear-gradient(135deg, #0f766e, #0f172a);">
         <div class="poster-badge">
-          <strong>神探狄仁杰4</strong>
-          <span>2028 · 电视剧</span>
+          <strong>绁炴帰鐙勪粊鏉?</strong>
+          <span>2028 路 鐢佃鍓?/span>
         </div>
       </div>
       <div class="slide-copy">
-        <span class="chip">古装 / 悬疑 / 推理</span>
-        <h3>神探狄仁杰4</h3>
-        <p>狄仁杰查案时发现所有线索都指向武则天，而最后一个证物，是他自己的项上人头。</p>
+        <span class="chip">鍙よ / 鎮枒 / 鎺ㄧ悊</span>
+        <h3>绁炴帰鐙勪粊鏉?</h3>
+        <p>鐙勪粊鏉版煡妗堟椂鍙戠幇鎵€鏈夌嚎绱㈤兘鎸囧悜姝﹀垯澶╋紝鑰屾渶鍚庝竴涓瘉鐗╋紝鏄粬鑷繁鐨勯」涓婁汉澶淬€?/p>
         <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;">
-          <a class="btn btn-primary" href="movie-1895.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 立即查看</a>
-          <a class="btn btn-ghost" href="search.html?q=神探狄仁杰4">站内搜索</a>
+          <a class="btn btn-primary" href="movie-1895.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 绔嬪嵆鏌ョ湅</a>
+          <a class="btn btn-ghost" href="search.html?q=绁炴帰鐙勪粊鏉?">绔欏唴鎼滅储</a>
         </div>
       </div>
     </div>
     <div class="slide ">
       <div class="poster-block" style="background: linear-gradient(135deg, #ea580c, #111827);">
         <div class="poster-badge">
-          <strong>青燕</strong>
-          <span>2028 · 电影</span>
+          <strong>闈掔嚂</strong>
+          <span>2028 路 鐢靛奖</span>
         </div>
       </div>
       <div class="slide-copy">
-        <span class="chip">剧情 / 悬疑</span>
-        <h3>青燕</h3>
-        <p>一名环保记者离奇身亡，她的妹妹化名“青燕”潜入污染企业，用一场完美犯罪讨回公道。</p>
+        <span class="chip">鍓ф儏 / 鎮枒</span>
+        <h3>闈掔嚂</h3>
+        <p>涓€鍚嶇幆淇濊鑰呯濂囪韩浜★紝濂圭殑濡瑰鍖栧悕鈥滈潚鐕曗€濇綔鍏ユ薄鏌撲紒涓氾紝鐢ㄤ竴鍦哄畬缇庣姱缃鍥炲叕閬撱€?/p>
         <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;">
-          <a class="btn btn-primary" href="movie-1195.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 立即查看</a>
-          <a class="btn btn-ghost" href="search.html?q=青燕">站内搜索</a>
+          <a class="btn btn-primary" href="movie-1195.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 绔嬪嵆鏌ョ湅</a>
+          <a class="btn btn-ghost" href="search.html?q=闈掔嚂">绔欏唴鎼滅储</a>
         </div>
       </div>
     </div>
     <div class="slide ">
       <div class="poster-block" style="background: linear-gradient(135deg, #1d4ed8, #0f172a);">
         <div class="poster-badge">
-          <strong>男人转化出机器人铠装</strong>
-          <span>2028 · 剧集</span>
+          <strong>鐢蜂汉杞寲鍑烘満鍣ㄤ汉閾犺</strong>
+          <span>2028 路 鍓ч泦</span>
         </div>
       </div>
       <div class="slide-copy">
-        <span class="chip">科幻 / 动作 / 惊悚</span>
-        <h3>男人转化出机器人铠装</h3>
-        <p>当男人的皮肤与骨骼自动展开成武器化铠甲，他再也分不清自己是人类还是兵器。</p>
+        <span class="chip">绉戝够 / 鍔ㄤ綔 / 鎯婃倸</span>
+        <h3>鐢蜂汉杞寲鍑烘満鍣ㄤ汉閾犺</h3>
+        <p>褰撶敺浜虹殑鐨偆涓庨楠艰嚜鍔ㄥ睍寮€鎴愭鍣ㄥ寲閾犵敳锛屼粬鍐嶄篃鍒嗕笉娓呰嚜宸辨槸浜虹被杩樻槸鍏靛櫒銆?/p>
         <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;">
-          <a class="btn btn-primary" href="movie-0233.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 立即查看</a>
-          <a class="btn btn-ghost" href="search.html?q=男人转化出机器人铠装">站内搜索</a>
+          <a class="btn btn-primary" href="movie-0233.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 绔嬪嵆鏌ョ湅</a>
+          <a class="btn btn-ghost" href="search.html?q=鐢蜂汉杞寲鍑烘満鍣ㄤ汉閾犺">绔欏唴鎼滅储</a>
         </div>
       </div>
     </div>
             </div>
             <div class="slider-controls">
               <div class="slider-dots"><button class="dot active" type="button" aria-label="slide 1"></button><button class="dot " type="button" aria-label="slide 2"></button><button class="dot " type="button" aria-label="slide 3"></button><button class="dot " type="button" aria-label="slide 4"></button><button class="dot " type="button" aria-label="slide 5"></button></div>
-              <a class="btn btn-ghost" href="search.html">浏览全部</a>
+              <a class="btn btn-ghost" href="search.html">娴忚鍏ㄩ儴</a>
             </div>
           </div>
         </div>
       </div>
       <aside class="hero-side">
         <div class="side-card">
-          <div class="side-head"><h3>热播榜入口</h3><a class="muted" href="rank.html">查看全部</a></div>
-          <div class="rank-list"><div class="rank-item"><div class="rank-num">1</div><div><h4><a href="movie-1734.html">旋涡1949 </a></h4><p>悬疑, 历史 · 2029</p></div><div class="year">#1</div></div><div class="rank-item"><div class="rank-num">2</div><div><h4><a href="movie-1157.html">为此为止 </a></h4><p>剧情 / 犯罪 · 2029</p></div><div class="year">#2</div></div><div class="rank-item"><div class="rank-num">3</div><div><h4><a href="movie-1895.html">神探狄仁杰4 </a></h4><p>古装 / 悬疑 / 推理 · 2028</p></div><div class="year">#3</div></div><div class="rank-item"><div class="rank-num">4</div><div><h4><a href="movie-1195.html">青燕 </a></h4><p>剧情 / 悬疑 · 2028</p></div><div class="year">#4</div></div><div class="rank-item"><div class="rank-num">5</div><div><h4><a href="movie-0233.html">男人转化出机器人铠装 </a></h4><p>科幻 / 动作 / 惊悚 · 2028</p></div><div class="year">#5</div></div></div>
+          <div class="side-head"><h3>鐑挱姒滃叆鍙?/h3><a class="muted" href="rank.html">鏌ョ湅鍏ㄩ儴</a></div>
+          <div class="rank-list"><div class="rank-item"><div class="rank-num">1</div><div><h4><a href="movie-1734.html">鏃嬫丁1949 </a></h4><p>鎮枒, 鍘嗗彶 路 2029</p></div><div class="year">#1</div></div><div class="rank-item"><div class="rank-num">2</div><div><h4><a href="movie-1157.html">涓烘涓烘 </a></h4><p>鍓ф儏 / 鐘姜 路 2029</p></div><div class="year">#2</div></div><div class="rank-item"><div class="rank-num">3</div><div><h4><a href="movie-1895.html">绁炴帰鐙勪粊鏉? </a></h4><p>鍙よ / 鎮枒 / 鎺ㄧ悊 路 2028</p></div><div class="year">#3</div></div><div class="rank-item"><div class="rank-num">4</div><div><h4><a href="movie-1195.html">闈掔嚂 </a></h4><p>鍓ф儏 / 鎮枒 路 2028</p></div><div class="year">#4</div></div><div class="rank-item"><div class="rank-num">5</div><div><h4><a href="movie-0233.html">鐢蜂汉杞寲鍑烘満鍣ㄤ汉閾犺 </a></h4><p>绉戝够 / 鍔ㄤ綔 / 鎯婃倸 路 2028</p></div><div class="year">#5</div></div></div>
         </div>
         <div class="side-card">
-          <div class="side-head"><h3>快速分类</h3><a class="muted" href="search.html">筛选</a></div>
+          <div class="side-head"><h3>蹇€熷垎绫?/h3><a class="muted" href="search.html">绛涢€?/a></div>
           <div class="tag-cloud">
-            <a class="pill" href="category-action.html">动作 · 犯罪 · 777</a><a class="pill" href="category-comedy.html">喜剧 · 家庭 · 484</a><a class="pill" href="category-romance.html">爱情 · 青春 · 209</a><a class="pill" href="category-mystery.html">悬疑 · 惊悚 · 259</a><a class="pill" href="category-scifi.html">科幻 · 奇幻 · 67</a><a class="pill" href="category-horror.html">恐怖 · 民俗 · 19</a><a class="pill" href="category-drama.html">剧情 · 都市 · 150</a><a class="pill" href="category-history.html">历史 · 战争 · 23</a>
+            <a class="pill" href="category-action.html">鍔ㄤ綔 路 鐘姜 路 777</a><a class="pill" href="category-comedy.html">鍠滃墽 路 瀹跺涵 路 484</a><a class="pill" href="category-romance.html">鐖辨儏 路 闈掓槬 路 209</a><a class="pill" href="category-mystery.html">鎮枒 路 鎯婃倸 路 259</a><a class="pill" href="category-scifi.html">绉戝够 路 濂囧够 路 67</a><a class="pill" href="category-horror.html">鎭愭€?路 姘戜織 路 19</a><a class="pill" href="category-drama.html">鍓ф儏 路 閮藉競 路 150</a><a class="pill" href="category-history.html">鍘嗗彶 路 鎴樹簤 路 23</a>
           </div>
         </div>
         <div class="side-card">
-          <div class="side-head"><h3>站点信息</h3></div>
-          <p style="margin:0;color:var(--muted);line-height:1.8">以纯静态方式呈现的电影与剧集片库，支持分类浏览、热播排行、详情页与本地 HLS 播放。</p>
+          <div class="side-head"><h3>绔欑偣淇℃伅</h3></div>
+          <p style="margin:0;color:var(--muted);line-height:1.8">浠ョ函闈欐€佹柟寮忓憟鐜扮殑鐢靛奖涓庡墽闆嗙墖搴擄紝鏀寔鍒嗙被娴忚銆佺儹鎾帓琛屻€佽鎯呴〉涓庢湰鍦?HLS 鎾斁銆?/p>
         </div>
       </aside>
     </div>
@@ -177,75 +167,75 @@ var _hmt = _hmt || [];
 
   <section class="section">
     <div class="container">
-      <div class="section-head"><div><h2>分类入口</h2><p>10 个独立分类页，覆盖不同类型主题。</p></div><a class="muted" href="search.html">进入搜索</a></div>
+      <div class="section-head"><div><h2>鍒嗙被鍏ュ彛</h2><p>10 涓嫭绔嬪垎绫婚〉锛岃鐩栦笉鍚岀被鍨嬩富棰樸€?/p></div><a class="muted" href="search.html">杩涘叆鎼滅储</a></div>
       <div class="grid categories">
     <a class="card tile" href="category-action.html">
       <div>
-        <h3>动作 · 犯罪</h3>
-        <p>覆盖 动作 / 犯罪 / 武侠 / 战争 / 警匪 等主题，按年份与热度排序浏览。</p>
+        <h3>鍔ㄤ綔 路 鐘姜</h3>
+        <p>瑕嗙洊 鍔ㄤ綔 / 鐘姜 / 姝︿緺 / 鎴樹簤 / 璀﹀尓 绛変富棰橈紝鎸夊勾浠戒笌鐑害鎺掑簭娴忚銆?/p>
       </div>
       <div class="count">777</div>
     </a>
     <a class="card tile" href="category-comedy.html">
       <div>
-        <h3>喜剧 · 家庭</h3>
-        <p>覆盖 喜剧 / 黑色幽默 / 恶搞 / 家庭 / 生活 等主题，按年份与热度排序浏览。</p>
+        <h3>鍠滃墽 路 瀹跺涵</h3>
+        <p>瑕嗙洊 鍠滃墽 / 榛戣壊骞介粯 / 鎭舵悶 / 瀹跺涵 / 鐢熸椿 绛変富棰橈紝鎸夊勾浠戒笌鐑害鎺掑簭娴忚銆?/p>
       </div>
       <div class="count">484</div>
     </a>
     <a class="card tile" href="category-romance.html">
       <div>
-        <h3>爱情 · 青春</h3>
-        <p>覆盖 爱情 / 青春 / 纯爱 / 甜宠 / 婚恋 等主题，按年份与热度排序浏览。</p>
+        <h3>鐖辨儏 路 闈掓槬</h3>
+        <p>瑕嗙洊 鐖辨儏 / 闈掓槬 / 绾埍 / 鐢滃疇 / 濠氭亱 绛変富棰橈紝鎸夊勾浠戒笌鐑害鎺掑簭娴忚銆?/p>
       </div>
       <div class="count">209</div>
     </a>
     <a class="card tile" href="category-mystery.html">
       <div>
-        <h3>悬疑 · 惊悚</h3>
-        <p>覆盖 悬疑 / 惊悚 / 犯罪 / 心理 / 侦探 等主题，按年份与热度排序浏览。</p>
+        <h3>鎮枒 路 鎯婃倸</h3>
+        <p>瑕嗙洊 鎮枒 / 鎯婃倸 / 鐘姜 / 蹇冪悊 / 渚︽帰 绛変富棰橈紝鎸夊勾浠戒笌鐑害鎺掑簭娴忚銆?/p>
       </div>
       <div class="count">259</div>
     </a>
     <a class="card tile" href="category-scifi.html">
       <div>
-        <h3>科幻 · 奇幻</h3>
-        <p>覆盖 科幻 / 奇幻 / 机甲 / 超能力 / 魔法 等主题，按年份与热度排序浏览。</p>
+        <h3>绉戝够 路 濂囧够</h3>
+        <p>瑕嗙洊 绉戝够 / 濂囧够 / 鏈虹敳 / 瓒呰兘鍔?/ 榄旀硶 绛変富棰橈紝鎸夊勾浠戒笌鐑害鎺掑簭娴忚銆?/p>
       </div>
       <div class="count">67</div>
     </a>
     <a class="card tile" href="category-horror.html">
       <div>
-        <h3>恐怖 · 民俗</h3>
-        <p>覆盖 恐怖 / 鬼 / 民俗 / 诅咒 / 吸血鬼 等主题，按年份与热度排序浏览。</p>
+        <h3>鎭愭€?路 姘戜織</h3>
+        <p>瑕嗙洊 鎭愭€?/ 楝?/ 姘戜織 / 璇呭拻 / 鍚歌楝?绛変富棰橈紝鎸夊勾浠戒笌鐑害鎺掑簭娴忚銆?/p>
       </div>
       <div class="count">19</div>
     </a>
     <a class="card tile" href="category-drama.html">
       <div>
-        <h3>剧情 · 都市</h3>
-        <p>覆盖 剧情 / 都市 / 职场 / 文艺 / 社会 等主题，按年份与热度排序浏览。</p>
+        <h3>鍓ф儏 路 閮藉競</h3>
+        <p>瑕嗙洊 鍓ф儏 / 閮藉競 / 鑱屽満 / 鏂囪壓 / 绀句細 绛変富棰橈紝鎸夊勾浠戒笌鐑害鎺掑簭娴忚銆?/p>
       </div>
       <div class="count">150</div>
     </a>
     <a class="card tile" href="category-history.html">
       <div>
-        <h3>历史 · 战争</h3>
-        <p>覆盖 历史 / 传记 / 古装 / 民国 / 时代剧 等主题，按年份与热度排序浏览。</p>
+        <h3>鍘嗗彶 路 鎴樹簤</h3>
+        <p>瑕嗙洊 鍘嗗彶 / 浼犺 / 鍙よ / 姘戝浗 / 鏃朵唬鍓?绛変富棰橈紝鎸夊勾浠戒笌鐑害鎺掑簭娴忚銆?/p>
       </div>
       <div class="count">23</div>
     </a>
     <a class="card tile" href="category-anime.html">
       <div>
-        <h3>动画 · 冒险</h3>
-        <p>覆盖 动画 / 动画电影 / 动画剧集 / 动漫 / 少儿 等主题，按年份与热度排序浏览。</p>
+        <h3>鍔ㄧ敾 路 鍐掗櫓</h3>
+        <p>瑕嗙洊 鍔ㄧ敾 / 鍔ㄧ敾鐢靛奖 / 鍔ㄧ敾鍓ч泦 / 鍔ㄦ极 / 灏戝効 绛変富棰橈紝鎸夊勾浠戒笌鐑害鎺掑簭娴忚銆?/p>
       </div>
       <div class="count">1</div>
     </a>
     <a class="card tile" href="category-series.html">
       <div>
-        <h3>剧集 · 纪录</h3>
-        <p>覆盖 电视剧 / 剧集 / 网剧 / 网络剧 / 综艺 等主题，按年份与热度排序浏览。</p>
+        <h3>鍓ч泦 路 绾綍</h3>
+        <p>瑕嗙洊 鐢佃鍓?/ 鍓ч泦 / 缃戝墽 / 缃戠粶鍓?/ 缁艰壓 绛変富棰橈紝鎸夊勾浠戒笌鐑害鎺掑簭娴忚銆?/p>
       </div>
       <div class="count">11</div>
     </a></div>
@@ -254,833 +244,833 @@ var _hmt = _hmt || [];
 
   <section class="section">
     <div class="container">
-      <div class="section-head"><div><h2>最新 / 热门推荐</h2><p>按年份与热度自动排序，静态输出到首页。</p></div><a class="muted" href="rank.html">热播榜</a></div>
+      <div class="section-head"><div><h2>鏈€鏂?/ 鐑棬鎺ㄨ崘</h2><p>鎸夊勾浠戒笌鐑害鑷姩鎺掑簭锛岄潤鎬佽緭鍑哄埌棣栭〉銆?/p></div><a class="muted" href="rank.html">鐑挱姒?/a></div>
       <div class="grid movies">
-    <article class="card movie-card" data-movie-card data-title="旋涡1949" data-genre="悬疑, 历史" data-tags="民国, 谍战, 金融犯罪, 双雄对决" data-region="中国大陆" data-year="2029" data-type="电影" data-one-line="1949年解放前夕的上海，一对失散十年的兄弟重逢，一个是地下党金融专家，一个是国民党经济督察，而他们的命运被一笔消失的黄金死死缠住。">
+    <article class="card movie-card" data-movie-card data-title="鏃嬫丁1949" data-genre="鎮枒, 鍘嗗彶" data-tags="姘戝浗, 璋嶆垬, 閲戣瀺鐘姜, 鍙岄泟瀵瑰喅" data-region="涓浗澶ч檰" data-year="2029" data-type="鐢靛奖" data-one-line="1949骞磋В鏀惧墠澶曠殑涓婃捣锛屼竴瀵瑰け鏁ｅ崄骞寸殑鍏勫紵閲嶉€紝涓€涓槸鍦颁笅鍏氶噾铻嶄笓瀹讹紝涓€涓槸鍥芥皯鍏氱粡娴庣潱瀵燂紝鑰屼粬浠殑鍛借繍琚竴绗旀秷澶辩殑榛勯噾姝绘缂犱綇銆?>
       <a href="movie-1734.html">
         <div class="thumb" style="background: linear-gradient(135deg, #1d4ed8, #0f172a);">
           <div class="label">
-            <strong>旋涡1949</strong>
-            <span>电影 · 2029</span>
+            <strong>鏃嬫丁1949</strong>
+            <span>鐢靛奖 路 2029</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">悬疑, 历史</span>
-          <span>中国大陆</span>
+          <span class="badge">鎮枒, 鍘嗗彶</span>
+          <span>涓浗澶ч檰</span>
           <span>2029</span>
         </div>
-        <h3><a href="movie-1734.html">旋涡1949</a></h3>
-        <p>1949年解放前夕的上海，一对失散十年的兄弟重逢，一个是地下党金融专家，一个是国民党经济督察，而他们的命运被一笔消失的黄金死死缠住。</p>
+        <h3><a href="movie-1734.html">鏃嬫丁1949</a></h3>
+        <p>1949骞磋В鏀惧墠澶曠殑涓婃捣锛屼竴瀵瑰け鏁ｅ崄骞寸殑鍏勫紵閲嶉€紝涓€涓槸鍦颁笅鍏氶噾铻嶄笓瀹讹紝涓€涓槸鍥芥皯鍏氱粡娴庣潱瀵燂紝鑰屼粬浠殑鍛借繍琚竴绗旀秷澶辩殑榛勯噾姝绘缂犱綇銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1734.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1734.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1734.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1734.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="为此为止" data-genre="剧情 / 犯罪" data-tags="黑帮, 兄弟反目, 宿命, 港产片复苏" data-region="中国香港" data-year="2029" data-type="电影" data-one-line="两大黑帮谈判，最后达成的共识是：杀了那个和事佬。">
+    <article class="card movie-card" data-movie-card data-title="涓烘涓烘" data-genre="鍓ф儏 / 鐘姜" data-tags="榛戝府, 鍏勫紵鍙嶇洰, 瀹垮懡, 娓骇鐗囧鑻? data-region="涓浗棣欐腐" data-year="2029" data-type="鐢靛奖" data-one-line="涓ゅぇ榛戝府璋堝垽锛屾渶鍚庤揪鎴愮殑鍏辫瘑鏄細鏉€浜嗛偅涓拰浜嬩浆銆?>
       <a href="movie-1157.html">
         <div class="thumb" style="background: linear-gradient(135deg, #db2777, #111827);">
           <div class="label">
-            <strong>为此为止</strong>
-            <span>电影 · 2029</span>
+            <strong>涓烘涓烘</strong>
+            <span>鐢靛奖 路 2029</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">剧情 / 犯罪</span>
-          <span>中国香港</span>
+          <span class="badge">鍓ф儏 / 鐘姜</span>
+          <span>涓浗棣欐腐</span>
           <span>2029</span>
         </div>
-        <h3><a href="movie-1157.html">为此为止</a></h3>
-        <p>两大黑帮谈判，最后达成的共识是：杀了那个和事佬。</p>
+        <h3><a href="movie-1157.html">涓烘涓烘</a></h3>
+        <p>涓ゅぇ榛戝府璋堝垽锛屾渶鍚庤揪鎴愮殑鍏辫瘑鏄細鏉€浜嗛偅涓拰浜嬩浆銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1157.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1157.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1157.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1157.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="神探狄仁杰4" data-genre="古装 / 悬疑 / 推理" data-tags="狄仁杰, 武则天, 朝堂, 奇案" data-region="中国大陆" data-year="2028" data-type="电视剧" data-one-line="狄仁杰查案时发现所有线索都指向武则天，而最后一个证物，是他自己的项上人头。">
+    <article class="card movie-card" data-movie-card data-title="绁炴帰鐙勪粊鏉?" data-genre="鍙よ / 鎮枒 / 鎺ㄧ悊" data-tags="鐙勪粊鏉? 姝﹀垯澶? 鏈濆爞, 濂囨" data-region="涓浗澶ч檰" data-year="2028" data-type="鐢佃鍓? data-one-line="鐙勪粊鏉版煡妗堟椂鍙戠幇鎵€鏈夌嚎绱㈤兘鎸囧悜姝﹀垯澶╋紝鑰屾渶鍚庝竴涓瘉鐗╋紝鏄粬鑷繁鐨勯」涓婁汉澶淬€?>
       <a href="movie-1895.html">
         <div class="thumb" style="background: linear-gradient(135deg, #0f766e, #0f172a);">
           <div class="label">
-            <strong>神探狄仁杰4</strong>
-            <span>电视剧 · 2028</span>
+            <strong>绁炴帰鐙勪粊鏉?</strong>
+            <span>鐢佃鍓?路 2028</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">古装 / 悬疑 / 推理</span>
-          <span>中国大陆</span>
+          <span class="badge">鍙よ / 鎮枒 / 鎺ㄧ悊</span>
+          <span>涓浗澶ч檰</span>
           <span>2028</span>
         </div>
-        <h3><a href="movie-1895.html">神探狄仁杰4</a></h3>
-        <p>狄仁杰查案时发现所有线索都指向武则天，而最后一个证物，是他自己的项上人头。</p>
+        <h3><a href="movie-1895.html">绁炴帰鐙勪粊鏉?</a></h3>
+        <p>鐙勪粊鏉版煡妗堟椂鍙戠幇鎵€鏈夌嚎绱㈤兘鎸囧悜姝﹀垯澶╋紝鑰屾渶鍚庝竴涓瘉鐗╋紝鏄粬鑷繁鐨勯」涓婁汉澶淬€?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1895.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1895.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1895.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1895.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="青燕" data-genre="剧情 / 悬疑" data-tags="复仇, 环保, 女性, 黑色电影" data-region="中国大陆" data-year="2028" data-type="电影" data-one-line="一名环保记者离奇身亡，她的妹妹化名“青燕”潜入污染企业，用一场完美犯罪讨回公道。">
+    <article class="card movie-card" data-movie-card data-title="闈掔嚂" data-genre="鍓ф儏 / 鎮枒" data-tags="澶嶄粐, 鐜繚, 濂虫€? 榛戣壊鐢靛奖" data-region="涓浗澶ч檰" data-year="2028" data-type="鐢靛奖" data-one-line="涓€鍚嶇幆淇濊鑰呯濂囪韩浜★紝濂圭殑濡瑰鍖栧悕鈥滈潚鐕曗€濇綔鍏ユ薄鏌撲紒涓氾紝鐢ㄤ竴鍦哄畬缇庣姱缃鍥炲叕閬撱€?>
       <a href="movie-1195.html">
         <div class="thumb" style="background: linear-gradient(135deg, #ea580c, #111827);">
           <div class="label">
-            <strong>青燕</strong>
-            <span>电影 · 2028</span>
+            <strong>闈掔嚂</strong>
+            <span>鐢靛奖 路 2028</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">剧情 / 悬疑</span>
-          <span>中国大陆</span>
+          <span class="badge">鍓ф儏 / 鎮枒</span>
+          <span>涓浗澶ч檰</span>
           <span>2028</span>
         </div>
-        <h3><a href="movie-1195.html">青燕</a></h3>
-        <p>一名环保记者离奇身亡，她的妹妹化名“青燕”潜入污染企业，用一场完美犯罪讨回公道。</p>
+        <h3><a href="movie-1195.html">闈掔嚂</a></h3>
+        <p>涓€鍚嶇幆淇濊鑰呯濂囪韩浜★紝濂圭殑濡瑰鍖栧悕鈥滈潚鐕曗€濇綔鍏ユ薄鏌撲紒涓氾紝鐢ㄤ竴鍦哄畬缇庣姱缃鍥炲叕閬撱€?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1195.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1195.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1195.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1195.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="男人转化出机器人铠装" data-genre="科幻 / 动作 / 惊悚" data-tags="赛博格, 人体改造, 反乌托邦, 机甲战斗, 身份危机" data-region="日本" data-year="2028" data-type="剧集" data-one-line="当男人的皮肤与骨骼自动展开成武器化铠甲，他再也分不清自己是人类还是兵器。">
+    <article class="card movie-card" data-movie-card data-title="鐢蜂汉杞寲鍑烘満鍣ㄤ汉閾犺" data-genre="绉戝够 / 鍔ㄤ綔 / 鎯婃倸" data-tags="璧涘崥鏍? 浜轰綋鏀归€? 鍙嶄箤鎵橀偊, 鏈虹敳鎴樻枟, 韬唤鍗辨満" data-region="鏃ユ湰" data-year="2028" data-type="鍓ч泦" data-one-line="褰撶敺浜虹殑鐨偆涓庨楠艰嚜鍔ㄥ睍寮€鎴愭鍣ㄥ寲閾犵敳锛屼粬鍐嶄篃鍒嗕笉娓呰嚜宸辨槸浜虹被杩樻槸鍏靛櫒銆?>
       <a href="movie-0233.html">
         <div class="thumb" style="background: linear-gradient(135deg, #1d4ed8, #0f172a);">
           <div class="label">
-            <strong>男人转化出机器人铠装</strong>
-            <span>剧集 · 2028</span>
+            <strong>鐢蜂汉杞寲鍑烘満鍣ㄤ汉閾犺</strong>
+            <span>鍓ч泦 路 2028</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">科幻 / 动作 / 惊悚</span>
-          <span>日本</span>
+          <span class="badge">绉戝够 / 鍔ㄤ綔 / 鎯婃倸</span>
+          <span>鏃ユ湰</span>
           <span>2028</span>
         </div>
-        <h3><a href="movie-0233.html">男人转化出机器人铠装</a></h3>
-        <p>当男人的皮肤与骨骼自动展开成武器化铠甲，他再也分不清自己是人类还是兵器。</p>
+        <h3><a href="movie-0233.html">鐢蜂汉杞寲鍑烘満鍣ㄤ汉閾犺</a></h3>
+        <p>褰撶敺浜虹殑鐨偆涓庨楠艰嚜鍔ㄥ睍寮€鎴愭鍣ㄥ寲閾犵敳锛屼粬鍐嶄篃鍒嗕笉娓呰嚜宸辨槸浜虹被杩樻槸鍏靛櫒銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0233.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0233.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0233.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0233.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="昨日杀神" data-genre="动作、科幻、赛博朋克" data-tags="失忆, 杀手, 时间回溯, 暴力美学" data-region="日本" data-year="2028" data-type="OVA" data-one-line="传说中的杀手醒来发现自己变成了一具老年躯体，而昨天的自己正满世界追杀今天的他。">
+    <article class="card movie-card" data-movie-card data-title="鏄ㄦ棩鏉€绁? data-genre="鍔ㄤ綔銆佺骞汇€佽禌鍗氭湅鍏? data-tags="澶卞繂, 鏉€鎵? 鏃堕棿鍥炴函, 鏆村姏缇庡" data-region="鏃ユ湰" data-year="2028" data-type="OVA" data-one-line="浼犺涓殑鏉€鎵嬮啋鏉ュ彂鐜拌嚜宸卞彉鎴愪簡涓€鍏疯€佸勾韬綋锛岃€屾槰澶╃殑鑷繁姝ｆ弧涓栫晫杩芥潃浠婂ぉ鐨勪粬銆?>
       <a href="movie-0732.html">
         <div class="thumb" style="background: linear-gradient(135deg, #2563eb, #0f172a);">
           <div class="label">
-            <strong>昨日杀神</strong>
-            <span>OVA · 2028</span>
+            <strong>鏄ㄦ棩鏉€绁?/strong>
+            <span>OVA 路 2028</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">动作、科幻、赛博朋克</span>
-          <span>日本</span>
+          <span class="badge">鍔ㄤ綔銆佺骞汇€佽禌鍗氭湅鍏?/span>
+          <span>鏃ユ湰</span>
           <span>2028</span>
         </div>
-        <h3><a href="movie-0732.html">昨日杀神</a></h3>
-        <p>传说中的杀手醒来发现自己变成了一具老年躯体，而昨天的自己正满世界追杀今天的他。</p>
+        <h3><a href="movie-0732.html">鏄ㄦ棩鏉€绁?/a></h3>
+        <p>浼犺涓殑鏉€鎵嬮啋鏉ュ彂鐜拌嚜宸卞彉鎴愪簡涓€鍏疯€佸勾韬綋锛岃€屾槰澶╃殑鑷繁姝ｆ弧涓栫晫杩芥潃浠婂ぉ鐨勪粬銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0732.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0732.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0732.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0732.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="美国制造" data-genre="剧情 / 犯罪 / 悬疑" data-tags="制造业黑幕, 工人运动, 小镇, 群像剧" data-region="美国" data-year="2028" data-type="剧集" data-one-line="一家百年汽车工厂突然宣布倒闭，五千名工人失业后，发现老板早在十年前就开始秘密转移资产。">
+    <article class="card movie-card" data-movie-card data-title="缇庡浗鍒堕€? data-genre="鍓ф儏 / 鐘姜 / 鎮枒" data-tags="鍒堕€犱笟榛戝箷, 宸ヤ汉杩愬姩, 灏忛晣, 缇ゅ儚鍓? data-region="缇庡浗" data-year="2028" data-type="鍓ч泦" data-one-line="涓€瀹剁櫨骞存苯杞﹀伐鍘傜獊鐒跺甯冨€掗棴锛屼簲鍗冨悕宸ヤ汉澶变笟鍚庯紝鍙戠幇鑰佹澘鏃╁湪鍗佸勾鍓嶅氨寮€濮嬬瀵嗚浆绉昏祫浜с€?>
       <a href="movie-0663.html">
         <div class="thumb" style="background: linear-gradient(135deg, #db2777, #111827);">
           <div class="label">
-            <strong>美国制造</strong>
-            <span>剧集 · 2028</span>
+            <strong>缇庡浗鍒堕€?/strong>
+            <span>鍓ч泦 路 2028</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">剧情 / 犯罪 / 悬疑</span>
-          <span>美国</span>
+          <span class="badge">鍓ф儏 / 鐘姜 / 鎮枒</span>
+          <span>缇庡浗</span>
           <span>2028</span>
         </div>
-        <h3><a href="movie-0663.html">美国制造</a></h3>
-        <p>一家百年汽车工厂突然宣布倒闭，五千名工人失业后，发现老板早在十年前就开始秘密转移资产。</p>
+        <h3><a href="movie-0663.html">缇庡浗鍒堕€?/a></h3>
+        <p>涓€瀹剁櫨骞存苯杞﹀伐鍘傜獊鐒跺甯冨€掗棴锛屼簲鍗冨悕宸ヤ汉澶变笟鍚庯紝鍙戠幇鑰佹澘鏃╁湪鍗佸勾鍓嶅氨寮€濮嬬瀵嗚浆绉昏祫浜с€?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0663.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0663.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0663.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0663.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="盲人律师" data-genre="律政, 悬疑" data-tags="视障律师, 触觉推理, 正义, 真实事件改编" data-region="韩国" data-year="2028" data-type="电视剧" data-one-line="他看不见卷宗，却能看见别人证词里的每一处破绽。">
+    <article class="card movie-card" data-movie-card data-title="鐩蹭汉寰嬪笀" data-genre="寰嬫斂, 鎮枒" data-tags="瑙嗛殰寰嬪笀, 瑙﹁鎺ㄧ悊, 姝ｄ箟, 鐪熷疄浜嬩欢鏀圭紪" data-region="闊╁浗" data-year="2028" data-type="鐢佃鍓? data-one-line="浠栫湅涓嶈鍗峰畻锛屽嵈鑳界湅瑙佸埆浜鸿瘉璇嶉噷鐨勬瘡涓€澶勭牬缁姐€?>
       <a href="movie-0124.html">
         <div class="thumb" style="background: linear-gradient(135deg, #db2777, #111827);">
           <div class="label">
-            <strong>盲人律师</strong>
-            <span>电视剧 · 2028</span>
+            <strong>鐩蹭汉寰嬪笀</strong>
+            <span>鐢佃鍓?路 2028</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">律政, 悬疑</span>
-          <span>韩国</span>
+          <span class="badge">寰嬫斂, 鎮枒</span>
+          <span>闊╁浗</span>
           <span>2028</span>
         </div>
-        <h3><a href="movie-0124.html">盲人律师</a></h3>
-        <p>他看不见卷宗，却能看见别人证词里的每一处破绽。</p>
+        <h3><a href="movie-0124.html">鐩蹭汉寰嬪笀</a></h3>
+        <p>浠栫湅涓嶈鍗峰畻锛屽嵈鑳界湅瑙佸埆浜鸿瘉璇嶉噷鐨勬瘡涓€澶勭牬缁姐€?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0124.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0124.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0124.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0124.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="阴牙人" data-genre="恐怖, 奇幻" data-tags="身体恐怖, 女权, 隐喻, cult" data-region="美国" data-year="2027" data-type="电影" data-one-line="少女发现自己阴道里长着锋利的牙齿，这成了她对抗所有不怀好意的男性的武器。">
+    <article class="card movie-card" data-movie-card data-title="闃寸墮浜? data-genre="鎭愭€? 濂囧够" data-tags="韬綋鎭愭€? 濂虫潈, 闅愬柣, cult" data-region="缇庡浗" data-year="2027" data-type="鐢靛奖" data-one-line="灏戝コ鍙戠幇鑷繁闃撮亾閲岄暱鐫€閿嬪埄鐨勭墮榻匡紝杩欐垚浜嗗ス瀵规姉鎵€鏈変笉鎬€濂芥剰鐨勭敺鎬х殑姝﹀櫒銆?>
       <a href="movie-0828.html">
         <div class="thumb" style="background: linear-gradient(135deg, #1d4ed8, #0f172a);">
           <div class="label">
-            <strong>阴牙人</strong>
-            <span>电影 · 2027</span>
+            <strong>闃寸墮浜?/strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">恐怖, 奇幻</span>
-          <span>美国</span>
+          <span class="badge">鎭愭€? 濂囧够</span>
+          <span>缇庡浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0828.html">阴牙人</a></h3>
-        <p>少女发现自己阴道里长着锋利的牙齿，这成了她对抗所有不怀好意的男性的武器。</p>
+        <h3><a href="movie-0828.html">闃寸墮浜?/a></h3>
+        <p>灏戝コ鍙戠幇鑷繁闃撮亾閲岄暱鐫€閿嬪埄鐨勭墮榻匡紝杩欐垚浜嗗ス瀵规姉鎵€鏈変笉鎬€濂芥剰鐨勭敺鎬х殑姝﹀櫒銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0828.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0828.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0828.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0828.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="艳妓春色" data-genre="古装， 剧情" data-tags="青楼女性, 晚清背景, 女性互助, 家国情怀, 非典型女主" data-region="中国大陆" data-year="2027" data-type="电视剧" data-one-line="晚清末年，京城头牌清吟馆里一群被视为“玩物”的妓女，暗中经营着全华北最大的情报网。">
+    <article class="card movie-card" data-movie-card data-title="鑹冲鏄ヨ壊" data-genre="鍙よ锛?鍓ф儏" data-tags="闈掓ゼ濂虫€? 鏅氭竻鑳屾櫙, 濂虫€т簰鍔? 瀹跺浗鎯呮€€, 闈炲吀鍨嬪コ涓? data-region="涓浗澶ч檰" data-year="2027" data-type="鐢佃鍓? data-one-line="鏅氭竻鏈勾锛屼含鍩庡ご鐗屾竻鍚熼閲屼竴缇よ瑙嗕负鈥滅帺鐗┾€濈殑濡撳コ锛屾殫涓粡钀ョ潃鍏ㄥ崕鍖楁渶澶х殑鎯呮姤缃戙€?>
       <a href="movie-0556.html">
         <div class="thumb" style="background: linear-gradient(135deg, #1d4ed8, #0f172a);">
           <div class="label">
-            <strong>艳妓春色</strong>
-            <span>电视剧 · 2027</span>
+            <strong>鑹冲鏄ヨ壊</strong>
+            <span>鐢佃鍓?路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">古装， 剧情</span>
-          <span>中国大陆</span>
+          <span class="badge">鍙よ锛?鍓ф儏</span>
+          <span>涓浗澶ч檰</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0556.html">艳妓春色</a></h3>
-        <p>晚清末年，京城头牌清吟馆里一群被视为“玩物”的妓女，暗中经营着全华北最大的情报网。</p>
+        <h3><a href="movie-0556.html">鑹冲鏄ヨ壊</a></h3>
+        <p>鏅氭竻鏈勾锛屼含鍩庡ご鐗屾竻鍚熼閲屼竴缇よ瑙嗕负鈥滅帺鐗┾€濈殑濡撳コ锛屾殫涓粡钀ョ潃鍏ㄥ崕鍖楁渶澶х殑鎯呮姤缃戙€?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0556.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0556.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0556.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0556.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="欢乐满江湖" data-genre="喜剧 / 古装 / 武侠" data-tags="江湖客栈, 群像喜剧, 反向武侠, 搞笑" data-region="中国大陆" data-year="2027" data-type="剧集" data-one-line="武功最差的厨子、只想嫁人的女侠、欠债的魔头，共同经营一家沙漠里的黑店。">
+    <article class="card movie-card" data-movie-card data-title="娆箰婊℃睙婀? data-genre="鍠滃墽 / 鍙よ / 姝︿緺" data-tags="姹熸箹瀹㈡爤, 缇ゅ儚鍠滃墽, 鍙嶅悜姝︿緺, 鎼炵瑧" data-region="涓浗澶ч檰" data-year="2027" data-type="鍓ч泦" data-one-line="姝﹀姛鏈€宸殑鍘ㄥ瓙銆佸彧鎯冲珌浜虹殑濂充緺銆佹瑺鍊虹殑榄斿ご锛屽叡鍚岀粡钀ヤ竴瀹舵矙婕犻噷鐨勯粦搴椼€?>
       <a href="movie-0401.html">
         <div class="thumb" style="background: linear-gradient(135deg, #16a34a, #0f172a);">
           <div class="label">
-            <strong>欢乐满江湖</strong>
-            <span>剧集 · 2027</span>
+            <strong>娆箰婊℃睙婀?/strong>
+            <span>鍓ч泦 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">喜剧 / 古装 / 武侠</span>
-          <span>中国大陆</span>
+          <span class="badge">鍠滃墽 / 鍙よ / 姝︿緺</span>
+          <span>涓浗澶ч檰</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0401.html">欢乐满江湖</a></h3>
-        <p>武功最差的厨子、只想嫁人的女侠、欠债的魔头，共同经营一家沙漠里的黑店。</p>
+        <h3><a href="movie-0401.html">娆箰婊℃睙婀?/a></h3>
+        <p>姝﹀姛鏈€宸殑鍘ㄥ瓙銆佸彧鎯冲珌浜虹殑濂充緺銆佹瑺鍊虹殑榄斿ご锛屽叡鍚岀粡钀ヤ竴瀹舵矙婕犻噷鐨勯粦搴椼€?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0401.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0401.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0401.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0401.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="魔镜魔镜变变变" data-genre="奇幻/喜剧" data-tags="身体互换, 童话新编, 职场" data-region="中国大陆" data-year="2027" data-type="电影" data-one-line="社畜程序员无意中修复了一面古代魔镜，每天早上都会随机和一个人互换身体，包括他的女老板。">
+    <article class="card movie-card" data-movie-card data-title="榄旈暅榄旈暅鍙樺彉鍙? data-genre="濂囧够/鍠滃墽" data-tags="韬綋浜掓崲, 绔ヨ瘽鏂扮紪, 鑱屽満" data-region="涓浗澶ч檰" data-year="2027" data-type="鐢靛奖" data-one-line="绀剧暅绋嬪簭鍛樻棤鎰忎腑淇浜嗕竴闈㈠彜浠ｉ瓟闀滐紝姣忓ぉ鏃╀笂閮戒細闅忔満鍜屼竴涓汉浜掓崲韬綋锛屽寘鎷粬鐨勫コ鑰佹澘銆?>
       <a href="movie-1008.html">
         <div class="thumb" style="background: linear-gradient(135deg, #b45309, #111827);">
           <div class="label">
-            <strong>魔镜魔镜变变变</strong>
-            <span>电影 · 2027</span>
+            <strong>榄旈暅榄旈暅鍙樺彉鍙?/strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">奇幻/喜剧</span>
-          <span>中国大陆</span>
+          <span class="badge">濂囧够/鍠滃墽</span>
+          <span>涓浗澶ч檰</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-1008.html">魔镜魔镜变变变</a></h3>
-        <p>社畜程序员无意中修复了一面古代魔镜，每天早上都会随机和一个人互换身体，包括他的女老板。</p>
+        <h3><a href="movie-1008.html">榄旈暅榄旈暅鍙樺彉鍙?/a></h3>
+        <p>绀剧暅绋嬪簭鍛樻棤鎰忎腑淇浜嗕竴闈㈠彜浠ｉ瓟闀滐紝姣忓ぉ鏃╀笂閮戒細闅忔満鍜屼竴涓汉浜掓崲韬綋锛屽寘鎷粬鐨勫コ鑰佹澘銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1008.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1008.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1008.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1008.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="鬼界超级混蛋" data-genre="动作、奇幻、黑色幽默" data-tags="地狱, 叛乱, 摇滚, 六道轮回, 反英雄" data-region="日本" data-year="2027" data-type="动画剧集" data-one-line="在地狱的垃圾堆里诞生的怪物小子，集结了一群被六道抛弃的“混蛋”，发誓要推翻阎王的暴政。">
+    <article class="card movie-card" data-movie-card data-title="楝肩晫瓒呯骇娣疯泲" data-genre="鍔ㄤ綔銆佸骞汇€侀粦鑹插菇榛? data-tags="鍦扮嫳, 鍙涗贡, 鎽囨粴, 鍏亾杞洖, 鍙嶈嫳闆? data-region="鏃ユ湰" data-year="2027" data-type="鍔ㄧ敾鍓ч泦" data-one-line="鍦ㄥ湴鐙辩殑鍨冨溇鍫嗛噷璇炵敓鐨勬€墿灏忓瓙锛岄泦缁撲簡涓€缇よ鍏亾鎶涘純鐨勨€滄贩铔嬧€濓紝鍙戣獡瑕佹帹缈婚槑鐜嬬殑鏆存斂銆?>
       <a href="movie-1845.html">
         <div class="thumb" style="background: linear-gradient(135deg, #16a34a, #0f172a);">
           <div class="label">
-            <strong>鬼界超级混蛋</strong>
-            <span>动画剧集 · 2027</span>
+            <strong>楝肩晫瓒呯骇娣疯泲</strong>
+            <span>鍔ㄧ敾鍓ч泦 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">动作、奇幻、黑色幽默</span>
-          <span>日本</span>
+          <span class="badge">鍔ㄤ綔銆佸骞汇€侀粦鑹插菇榛?/span>
+          <span>鏃ユ湰</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-1845.html">鬼界超级混蛋</a></h3>
-        <p>在地狱的垃圾堆里诞生的怪物小子，集结了一群被六道抛弃的“混蛋”，发誓要推翻阎王的暴政。</p>
+        <h3><a href="movie-1845.html">楝肩晫瓒呯骇娣疯泲</a></h3>
+        <p>鍦ㄥ湴鐙辩殑鍨冨溇鍫嗛噷璇炵敓鐨勬€墿灏忓瓙锛岄泦缁撲簡涓€缇よ鍏亾鎶涘純鐨勨€滄贩铔嬧€濓紝鍙戣獡瑕佹帹缈婚槑鐜嬬殑鏆存斂銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1845.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1845.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1845.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1845.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="谁之过" data-genre="剧情, 犯罪, 家庭" data-tags="全民审判, 网暴, 媒体伦理, 悲剧, 社会派" data-region="中国大陆" data-year="2027" data-type="剧集" data-one-line="一个 5 岁女孩死在幼儿园，警察、家长、老师、媒体都在推卸责任，直到第 8 集，凶手竟是所有人。">
+    <article class="card movie-card" data-movie-card data-title="璋佷箣杩? data-genre="鍓ф儏, 鐘姜, 瀹跺涵" data-tags="鍏ㄦ皯瀹″垽, 缃戞毚, 濯掍綋浼︾悊, 鎮插墽, 绀句細娲? data-region="涓浗澶ч檰" data-year="2027" data-type="鍓ч泦" data-one-line="涓€涓?5 宀佸コ瀛╂鍦ㄥ辜鍎垮洯锛岃瀵熴€佸闀裤€佽€佸笀銆佸獟浣撻兘鍦ㄦ帹鍗歌矗浠伙紝鐩村埌绗?8 闆嗭紝鍑舵墜绔熸槸鎵€鏈変汉銆?>
       <a href="movie-1756.html">
         <div class="thumb" style="background: linear-gradient(135deg, #0f766e, #0f172a);">
           <div class="label">
-            <strong>谁之过</strong>
-            <span>剧集 · 2027</span>
+            <strong>璋佷箣杩?/strong>
+            <span>鍓ч泦 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">剧情, 犯罪, 家庭</span>
-          <span>中国大陆</span>
+          <span class="badge">鍓ф儏, 鐘姜, 瀹跺涵</span>
+          <span>涓浗澶ч檰</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-1756.html">谁之过</a></h3>
-        <p>一个 5 岁女孩死在幼儿园，警察、家长、老师、媒体都在推卸责任，直到第 8 集，凶手竟是所有人。</p>
+        <h3><a href="movie-1756.html">璋佷箣杩?/a></h3>
+        <p>涓€涓?5 宀佸コ瀛╂鍦ㄥ辜鍎垮洯锛岃瀵熴€佸闀裤€佽€佸笀銆佸獟浣撻兘鍦ㄦ帹鍗歌矗浠伙紝鐩村埌绗?8 闆嗭紝鍑舵墜绔熸槸鎵€鏈変汉銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1756.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1756.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1756.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1756.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="怪医杜立德" data-genre="奇幻 / 冒险 / 喜剧" data-tags="动物语言, 重生, 南极, 病毒, 生态" data-region="美国" data-year="2027" data-type="电影" data-one-line="为了寻找拯救致命病毒的唯一解药，兽医杜立德必须说服南极洲的企鹅皇告诉他人参的埋藏地。">
+    <article class="card movie-card" data-movie-card data-title="鎬尰鏉滅珛寰? data-genre="濂囧够 / 鍐掗櫓 / 鍠滃墽" data-tags="鍔ㄧ墿璇█, 閲嶇敓, 鍗楁瀬, 鐥呮瘨, 鐢熸€? data-region="缇庡浗" data-year="2027" data-type="鐢靛奖" data-one-line="涓轰簡瀵绘壘鎷晳鑷村懡鐥呮瘨鐨勫敮涓€瑙ｈ嵂锛屽吔鍖绘潨绔嬪痉蹇呴』璇存湇鍗楁瀬娲茬殑浼侀箙鐨囧憡璇変粬浜哄弬鐨勫煁钘忓湴銆?>
       <a href="movie-0406.html">
         <div class="thumb" style="background: linear-gradient(135deg, #1d4ed8, #0f172a);">
           <div class="label">
-            <strong>怪医杜立德</strong>
-            <span>电影 · 2027</span>
+            <strong>鎬尰鏉滅珛寰?/strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">奇幻 / 冒险 / 喜剧</span>
-          <span>美国</span>
+          <span class="badge">濂囧够 / 鍐掗櫓 / 鍠滃墽</span>
+          <span>缇庡浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0406.html">怪医杜立德</a></h3>
-        <p>为了寻找拯救致命病毒的唯一解药，兽医杜立德必须说服南极洲的企鹅皇告诉他人参的埋藏地。</p>
+        <h3><a href="movie-0406.html">鎬尰鏉滅珛寰?/a></h3>
+        <p>涓轰簡瀵绘壘鎷晳鑷村懡鐥呮瘨鐨勫敮涓€瑙ｈ嵂锛屽吔鍖绘潨绔嬪痉蹇呴』璇存湇鍗楁瀬娲茬殑浼侀箙鐨囧憡璇変粬浜哄弬鐨勫煁钘忓湴銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0406.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0406.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0406.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0406.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="玩家:暗影威胁" data-genre="动作 / 科幻 / 游戏改编" data-tags="VR游戏, 暗影刺客, 虚实结合, 黑客" data-region="美国" data-year="2027" data-type="电影" data-one-line="顶级游戏主播发现自己是VR游戏中的NPC，而所有玩家都在追杀他来解锁隐藏成就。">
+    <article class="card movie-card" data-movie-card data-title="鐜╁:鏆楀奖濞佽儊" data-genre="鍔ㄤ綔 / 绉戝够 / 娓告垙鏀圭紪" data-tags="VR娓告垙, 鏆楀奖鍒哄, 铏氬疄缁撳悎, 榛戝" data-region="缇庡浗" data-year="2027" data-type="鐢靛奖" data-one-line="椤剁骇娓告垙涓绘挱鍙戠幇鑷繁鏄疺R娓告垙涓殑NPC锛岃€屾墍鏈夌帺瀹堕兘鍦ㄨ拷鏉€浠栨潵瑙ｉ攣闅愯棌鎴愬氨銆?>
       <a href="movie-0148.html">
         <div class="thumb" style="background: linear-gradient(135deg, #0f766e, #0f172a);">
           <div class="label">
-            <strong>玩家:暗影威胁</strong>
-            <span>电影 · 2027</span>
+            <strong>鐜╁:鏆楀奖濞佽儊</strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">动作 / 科幻 / 游戏改编</span>
-          <span>美国</span>
+          <span class="badge">鍔ㄤ綔 / 绉戝够 / 娓告垙鏀圭紪</span>
+          <span>缇庡浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0148.html">玩家:暗影威胁</a></h3>
-        <p>顶级游戏主播发现自己是VR游戏中的NPC，而所有玩家都在追杀他来解锁隐藏成就。</p>
+        <h3><a href="movie-0148.html">鐜╁:鏆楀奖濞佽儊</a></h3>
+        <p>椤剁骇娓告垙涓绘挱鍙戠幇鑷繁鏄疺R娓告垙涓殑NPC锛岃€屾墍鏈夌帺瀹堕兘鍦ㄨ拷鏉€浠栨潵瑙ｉ攣闅愯棌鎴愬氨銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0148.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0148.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0148.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0148.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="深潜强制倒带" data-genre="科幻惊悚" data-tags="记忆回溯, 深海, 心理恐怖" data-region="美国" data-year="2027" data-type="电影" data-one-line="深潜器研究员在万米海底接触未知生命体后，记忆开始随机倒带，他必须在彻底变成婴儿前查明真相。">
+    <article class="card movie-card" data-movie-card data-title="娣辨綔寮哄埗鍊掑甫" data-genre="绉戝够鎯婃倸" data-tags="璁板繂鍥炴函, 娣辨捣, 蹇冪悊鎭愭€? data-region="缇庡浗" data-year="2027" data-type="鐢靛奖" data-one-line="娣辨綔鍣ㄧ爺绌跺憳鍦ㄤ竾绫虫捣搴曟帴瑙︽湭鐭ョ敓鍛戒綋鍚庯紝璁板繂寮€濮嬮殢鏈哄€掑甫锛屼粬蹇呴』鍦ㄥ交搴曞彉鎴愬┐鍎垮墠鏌ユ槑鐪熺浉銆?>
       <a href="movie-1958.html">
         <div class="thumb" style="background: linear-gradient(135deg, #db2777, #111827);">
           <div class="label">
-            <strong>深潜强制倒带</strong>
-            <span>电影 · 2027</span>
+            <strong>娣辨綔寮哄埗鍊掑甫</strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">科幻惊悚</span>
-          <span>美国</span>
+          <span class="badge">绉戝够鎯婃倸</span>
+          <span>缇庡浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-1958.html">深潜强制倒带</a></h3>
-        <p>深潜器研究员在万米海底接触未知生命体后，记忆开始随机倒带，他必须在彻底变成婴儿前查明真相。</p>
+        <h3><a href="movie-1958.html">娣辨綔寮哄埗鍊掑甫</a></h3>
+        <p>娣辨綔鍣ㄧ爺绌跺憳鍦ㄤ竾绫虫捣搴曟帴瑙︽湭鐭ョ敓鍛戒綋鍚庯紝璁板繂寮€濮嬮殢鏈哄€掑甫锛屼粬蹇呴』鍦ㄥ交搴曞彉鎴愬┐鍎垮墠鏌ユ槑鐪熺浉銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1958.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1958.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1958.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1958.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="奶站风波" data-genre="剧情、悬疑、社会" data-tags="农村题材, 食品安全, 官商勾结, 女性力量" data-region="中国大陆" data-year="2027" data-type="电视剧" data-one-line="北方小城的“放心奶站”被爆出致癌物，一位单亲妈妈发现，这口黑锅正砸向所有无辜的奶农。">
+    <article class="card movie-card" data-movie-card data-title="濂剁珯椋庢尝" data-genre="鍓ф儏銆佹偓鐤戙€佺ぞ浼? data-tags="鍐滄潙棰樻潗, 椋熷搧瀹夊叏, 瀹樺晢鍕剧粨, 濂虫€у姏閲? data-region="涓浗澶ч檰" data-year="2027" data-type="鐢佃鍓? data-one-line="鍖楁柟灏忓煄鐨勨€滄斁蹇冨ザ绔欌€濊鐖嗗嚭鑷寸檶鐗╋紝涓€浣嶅崟浜插濡堝彂鐜帮紝杩欏彛榛戦攨姝ｇ牳鍚戞墍鏈夋棤杈滅殑濂跺啘銆?>
       <a href="movie-1692.html">
         <div class="thumb" style="background: linear-gradient(135deg, #0f766e, #0f172a);">
           <div class="label">
-            <strong>奶站风波</strong>
-            <span>电视剧 · 2027</span>
+            <strong>濂剁珯椋庢尝</strong>
+            <span>鐢佃鍓?路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">剧情、悬疑、社会</span>
-          <span>中国大陆</span>
+          <span class="badge">鍓ф儏銆佹偓鐤戙€佺ぞ浼?/span>
+          <span>涓浗澶ч檰</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-1692.html">奶站风波</a></h3>
-        <p>北方小城的“放心奶站”被爆出致癌物，一位单亲妈妈发现，这口黑锅正砸向所有无辜的奶农。</p>
+        <h3><a href="movie-1692.html">濂剁珯椋庢尝</a></h3>
+        <p>鍖楁柟灏忓煄鐨勨€滄斁蹇冨ザ绔欌€濊鐖嗗嚭鑷寸檶鐗╋紝涓€浣嶅崟浜插濡堝彂鐜帮紝杩欏彛榛戦攨姝ｇ牳鍚戞墍鏈夋棤杈滅殑濂跺啘銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1692.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1692.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1692.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1692.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="爱在血泪交织时" data-genre="动作 / 爱情" data-tags="黑帮, 杀手, 虐恋, 救赎, 暴力美学" data-region="中国香港" data-year="2027" data-type="电影" data-one-line="一个冷酷无情的女杀手在执行任务时，救下了仇家的儿子，并决定培养他成为接班人，却在这个过程中爱上了自己的“作品”。">
+    <article class="card movie-card" data-movie-card data-title="鐖卞湪琛€娉氦缁囨椂" data-genre="鍔ㄤ綔 / 鐖辨儏" data-tags="榛戝府, 鏉€鎵? 铏愭亱, 鏁戣祹, 鏆村姏缇庡" data-region="涓浗棣欐腐" data-year="2027" data-type="鐢靛奖" data-one-line="涓€涓喎閰锋棤鎯呯殑濂虫潃鎵嬪湪鎵ц浠诲姟鏃讹紝鏁戜笅浜嗕粐瀹剁殑鍎垮瓙锛屽苟鍐冲畾鍩瑰吇浠栨垚涓烘帴鐝汉锛屽嵈鍦ㄨ繖涓繃绋嬩腑鐖变笂浜嗚嚜宸辩殑鈥滀綔鍝佲€濄€?>
       <a href="movie-1647.html">
         <div class="thumb" style="background: linear-gradient(135deg, #2563eb, #0f172a);">
           <div class="label">
-            <strong>爱在血泪交织时</strong>
-            <span>电影 · 2027</span>
+            <strong>鐖卞湪琛€娉氦缁囨椂</strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">动作 / 爱情</span>
-          <span>中国香港</span>
+          <span class="badge">鍔ㄤ綔 / 鐖辨儏</span>
+          <span>涓浗棣欐腐</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-1647.html">爱在血泪交织时</a></h3>
-        <p>一个冷酷无情的女杀手在执行任务时，救下了仇家的儿子，并决定培养他成为接班人，却在这个过程中爱上了自己的“作品”。</p>
+        <h3><a href="movie-1647.html">鐖卞湪琛€娉氦缁囨椂</a></h3>
+        <p>涓€涓喎閰锋棤鎯呯殑濂虫潃鎵嬪湪鎵ц浠诲姟鏃讹紝鏁戜笅浜嗕粐瀹剁殑鍎垮瓙锛屽苟鍐冲畾鍩瑰吇浠栨垚涓烘帴鐝汉锛屽嵈鍦ㄨ繖涓繃绋嬩腑鐖变笂浜嗚嚜宸辩殑鈥滀綔鍝佲€濄€?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1647.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1647.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1647.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1647.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="超级警探" data-genre="动作、喜剧、科幻" data-tags="超能力, 警察搭档, 体制讽刺, 低配英雄" data-region="美国" data-year="2027" data-type="电影" data-one-line="一个只有“超级听力”的废柴警探，与一个不信超能力的老派硬汉组队，侦破了全市最大毒品案。">
+    <article class="card movie-card" data-movie-card data-title="瓒呯骇璀︽帰" data-genre="鍔ㄤ綔銆佸枩鍓с€佺骞? data-tags="瓒呰兘鍔? 璀﹀療鎼。, 浣撳埗璁藉埡, 浣庨厤鑻遍泟" data-region="缇庡浗" data-year="2027" data-type="鐢靛奖" data-one-line="涓€涓彧鏈夆€滆秴绾у惉鍔涒€濈殑搴熸煷璀︽帰锛屼笌涓€涓笉淇¤秴鑳藉姏鐨勮€佹淳纭眽缁勯槦锛屼睛鐮翠簡鍏ㄥ競鏈€澶ф瘨鍝佹銆?>
       <a href="movie-0697.html">
         <div class="thumb" style="background: linear-gradient(135deg, #16a34a, #0f172a);">
           <div class="label">
-            <strong>超级警探</strong>
-            <span>电影 · 2027</span>
+            <strong>瓒呯骇璀︽帰</strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">动作、喜剧、科幻</span>
-          <span>美国</span>
+          <span class="badge">鍔ㄤ綔銆佸枩鍓с€佺骞?/span>
+          <span>缇庡浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0697.html">超级警探</a></h3>
-        <p>一个只有“超级听力”的废柴警探，与一个不信超能力的老派硬汉组队，侦破了全市最大毒品案。</p>
+        <h3><a href="movie-0697.html">瓒呯骇璀︽帰</a></h3>
+        <p>涓€涓彧鏈夆€滆秴绾у惉鍔涒€濈殑搴熸煷璀︽帰锛屼笌涓€涓笉淇¤秴鑳藉姏鐨勮€佹淳纭眽缁勯槦锛屼睛鐮翠簡鍏ㄥ競鏈€澶ф瘨鍝佹銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0697.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0697.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0697.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0697.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="金刚:骷髅岛" data-genre="动作， 冒险， 科幻" data-tags="怪兽宇宙, 丛林, 巨兽之战" data-region="美国" data-year="2027" data-type="电影" data-one-line="一支探险队深入骷髅岛地下世界，发现金刚并非岛上的唯一神，还有更古老的邪恶苏醒。">
+    <article class="card movie-card" data-movie-card data-title="閲戝垰:楠烽珔宀? data-genre="鍔ㄤ綔锛?鍐掗櫓锛?绉戝够" data-tags="鎬吔瀹囧畽, 涓涙灄, 宸ㄥ吔涔嬫垬" data-region="缇庡浗" data-year="2027" data-type="鐢靛奖" data-one-line="涓€鏀帰闄╅槦娣卞叆楠烽珔宀涘湴涓嬩笘鐣岋紝鍙戠幇閲戝垰骞堕潪宀涗笂鐨勫敮涓€绁烇紝杩樻湁鏇村彜鑰佺殑閭伓鑻忛啋銆?>
       <a href="movie-0331.html">
         <div class="thumb" style="background: linear-gradient(135deg, #db2777, #111827);">
           <div class="label">
-            <strong>金刚:骷髅岛</strong>
-            <span>电影 · 2027</span>
+            <strong>閲戝垰:楠烽珔宀?/strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">动作， 冒险， 科幻</span>
-          <span>美国</span>
+          <span class="badge">鍔ㄤ綔锛?鍐掗櫓锛?绉戝够</span>
+          <span>缇庡浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0331.html">金刚:骷髅岛</a></h3>
-        <p>一支探险队深入骷髅岛地下世界，发现金刚并非岛上的唯一神，还有更古老的邪恶苏醒。</p>
+        <h3><a href="movie-0331.html">閲戝垰:楠烽珔宀?/a></h3>
+        <p>涓€鏀帰闄╅槦娣卞叆楠烽珔宀涘湴涓嬩笘鐣岋紝鍙戠幇閲戝垰骞堕潪宀涗笂鐨勫敮涓€绁烇紝杩樻湁鏇村彜鑰佺殑閭伓鑻忛啋銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0331.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0331.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0331.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0331.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="大恐吓" data-genre="恐怖, 惊悚, 超自然" data-tags="都市传说, 心理恐怖, 氛围感, 邪典" data-region="美国" data-year="2027" data-type="电影" data-one-line="一个网络热帖说“只要连续七天回复‘我不怕你’，床底下的怪物就会消失”，但第七天，怪物开始回复了。">
+    <article class="card movie-card" data-movie-card data-title="澶ф亹鍚? data-genre="鎭愭€? 鎯婃倸, 瓒呰嚜鐒? data-tags="閮藉競浼犺, 蹇冪悊鎭愭€? 姘涘洿鎰? 閭吀" data-region="缇庡浗" data-year="2027" data-type="鐢靛奖" data-one-line="涓€涓綉缁滅儹甯栬鈥滃彧瑕佽繛缁竷澶╁洖澶嶁€樻垜涓嶆€曚綘鈥欙紝搴婂簳涓嬬殑鎬墿灏变細娑堝け鈥濓紝浣嗙涓冨ぉ锛屾€墿寮€濮嬪洖澶嶄簡銆?>
       <a href="movie-0348.html">
         <div class="thumb" style="background: linear-gradient(135deg, #16a34a, #0f172a);">
           <div class="label">
-            <strong>大恐吓</strong>
-            <span>电影 · 2027</span>
+            <strong>澶ф亹鍚?/strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">恐怖, 惊悚, 超自然</span>
-          <span>美国</span>
+          <span class="badge">鎭愭€? 鎯婃倸, 瓒呰嚜鐒?/span>
+          <span>缇庡浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0348.html">大恐吓</a></h3>
-        <p>一个网络热帖说“只要连续七天回复‘我不怕你’，床底下的怪物就会消失”，但第七天，怪物开始回复了。</p>
+        <h3><a href="movie-0348.html">澶ф亹鍚?/a></h3>
+        <p>涓€涓綉缁滅儹甯栬鈥滃彧瑕佽繛缁竷澶╁洖澶嶁€樻垜涓嶆€曚綘鈥欙紝搴婂簳涓嬬殑鎬墿灏变細娑堝け鈥濓紝浣嗙涓冨ぉ锛屾€墿寮€濮嬪洖澶嶄簡銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0348.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0348.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0348.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0348.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="奥尔高索洛的强盗" data-genre="犯罪、历史" data-tags="撒丁岛, 牧羊人起义, 真实事件改编, 西部风格" data-region="意大利" data-year="2027" data-type="电影" data-one-line="20世纪初撒丁岛，一名被冤枉的牧羊人落草为寇，与意大利政府军在山谷间展开十年游击。">
+    <article class="card movie-card" data-movie-card data-title="濂ュ皵楂樼储娲涚殑寮虹洍" data-genre="鐘姜銆佸巻鍙? data-tags="鎾掍竵宀? 鐗х緤浜鸿捣涔? 鐪熷疄浜嬩欢鏀圭紪, 瑗块儴椋庢牸" data-region="鎰忓ぇ鍒? data-year="2027" data-type="鐢靛奖" data-one-line="20涓栫邯鍒濇拻涓佸矝锛屼竴鍚嶈鍐ゆ瀴鐨勭墽缇婁汉钀借崏涓哄瘒锛屼笌鎰忓ぇ鍒╂斂搴滃啗鍦ㄥ北璋烽棿灞曞紑鍗佸勾娓稿嚮銆?>
       <a href="movie-1499.html">
         <div class="thumb" style="background: linear-gradient(135deg, #2563eb, #0f172a);">
           <div class="label">
-            <strong>奥尔高索洛的强盗</strong>
-            <span>电影 · 2027</span>
+            <strong>濂ュ皵楂樼储娲涚殑寮虹洍</strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">犯罪、历史</span>
-          <span>意大利</span>
+          <span class="badge">鐘姜銆佸巻鍙?/span>
+          <span>鎰忓ぇ鍒?/span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-1499.html">奥尔高索洛的强盗</a></h3>
-        <p>20世纪初撒丁岛，一名被冤枉的牧羊人落草为寇，与意大利政府军在山谷间展开十年游击。</p>
+        <h3><a href="movie-1499.html">濂ュ皵楂樼储娲涚殑寮虹洍</a></h3>
+        <p>20涓栫邯鍒濇拻涓佸矝锛屼竴鍚嶈鍐ゆ瀴鐨勭墽缇婁汉钀借崏涓哄瘒锛屼笌鎰忓ぇ鍒╂斂搴滃啗鍦ㄥ北璋烽棿灞曞紑鍗佸勾娓稿嚮銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1499.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1499.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1499.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1499.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="魔鬼武器" data-genre="动作, 科幻, 战争" data-tags="外骨骼机甲, 近未来战争, 军事科技, 硬核动作, 兄弟情" data-region="中国大陆" data-year="2027" data-type="电影" data-one-line="一款能够读取士兵情绪的外骨骼装甲在实战测试中失控，研发者必须进入自己的“武器”内部，与疯狂的人工智能展开厮杀。">
+    <article class="card movie-card" data-movie-card data-title="榄旈姝﹀櫒" data-genre="鍔ㄤ綔, 绉戝够, 鎴樹簤" data-tags="澶栭楠兼満鐢? 杩戞湭鏉ユ垬浜? 鍐涗簨绉戞妧, 纭牳鍔ㄤ綔, 鍏勫紵鎯? data-region="涓浗澶ч檰" data-year="2027" data-type="鐢靛奖" data-one-line="涓€娆捐兘澶熻鍙栧＋鍏垫儏缁殑澶栭楠艰鐢插湪瀹炴垬娴嬭瘯涓け鎺э紝鐮斿彂鑰呭繀椤昏繘鍏ヨ嚜宸辩殑鈥滄鍣ㄢ€濆唴閮紝涓庣柉鐙傜殑浜哄伐鏅鸿兘灞曞紑鍘潃銆?>
       <a href="movie-0659.html">
         <div class="thumb" style="background: linear-gradient(135deg, #16a34a, #0f172a);">
           <div class="label">
-            <strong>魔鬼武器</strong>
-            <span>电影 · 2027</span>
+            <strong>榄旈姝﹀櫒</strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">动作, 科幻, 战争</span>
-          <span>中国大陆</span>
+          <span class="badge">鍔ㄤ綔, 绉戝够, 鎴樹簤</span>
+          <span>涓浗澶ч檰</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0659.html">魔鬼武器</a></h3>
-        <p>一款能够读取士兵情绪的外骨骼装甲在实战测试中失控，研发者必须进入自己的“武器”内部，与疯狂的人工智能展开厮杀。</p>
+        <h3><a href="movie-0659.html">榄旈姝﹀櫒</a></h3>
+        <p>涓€娆捐兘澶熻鍙栧＋鍏垫儏缁殑澶栭楠艰鐢插湪瀹炴垬娴嬭瘯涓け鎺э紝鐮斿彂鑰呭繀椤昏繘鍏ヨ嚜宸辩殑鈥滄鍣ㄢ€濆唴閮紝涓庣柉鐙傜殑浜哄伐鏅鸿兘灞曞紑鍘潃銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0659.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0659.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0659.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0659.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="圈子之德州风云" data-genre="剧情 / 金融 / 犯罪" data-tags="德州扑克, 洗钱, 地下赌场" data-region="美国" data-year="2027" data-type="剧集" data-one-line="一名破产数学天才潜入德州地下牌局，却发现每一轮下注都在为毒贩洗钱。">
+    <article class="card movie-card" data-movie-card data-title="鍦堝瓙涔嬪痉宸為浜? data-genre="鍓ф儏 / 閲戣瀺 / 鐘姜" data-tags="寰峰窞鎵戝厠, 娲楅挶, 鍦颁笅璧屽満" data-region="缇庡浗" data-year="2027" data-type="鍓ч泦" data-one-line="涓€鍚嶇牬浜ф暟瀛﹀ぉ鎵嶆綔鍏ュ痉宸炲湴涓嬬墝灞€锛屽嵈鍙戠幇姣忎竴杞笅娉ㄩ兘鍦ㄤ负姣掕穿娲楅挶銆?>
       <a href="movie-1253.html">
         <div class="thumb" style="background: linear-gradient(135deg, #db2777, #111827);">
           <div class="label">
-            <strong>圈子之德州风云</strong>
-            <span>剧集 · 2027</span>
+            <strong>鍦堝瓙涔嬪痉宸為浜?/strong>
+            <span>鍓ч泦 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">剧情 / 金融 / 犯罪</span>
-          <span>美国</span>
+          <span class="badge">鍓ф儏 / 閲戣瀺 / 鐘姜</span>
+          <span>缇庡浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-1253.html">圈子之德州风云</a></h3>
-        <p>一名破产数学天才潜入德州地下牌局，却发现每一轮下注都在为毒贩洗钱。</p>
+        <h3><a href="movie-1253.html">鍦堝瓙涔嬪痉宸為浜?/a></h3>
+        <p>涓€鍚嶇牬浜ф暟瀛﹀ぉ鎵嶆綔鍏ュ痉宸炲湴涓嬬墝灞€锛屽嵈鍙戠幇姣忎竴杞笅娉ㄩ兘鍦ㄤ负姣掕穿娲楅挶銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1253.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1253.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1253.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1253.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="飞驰人生3" data-genre="喜剧 / 运动 / 剧情" data-tags="赛车, 韩寒, 续集, 热血, 中年" data-region="中国大陆" data-year="2027" data-type="电影" data-one-line="张驰从巴音布鲁克悬崖归来，面临的是新生代赛车手的挑战和自己的体能极限。">
+    <article class="card movie-card" data-movie-card data-title="椋為┌浜虹敓3" data-genre="鍠滃墽 / 杩愬姩 / 鍓ф儏" data-tags="璧涜溅, 闊╁瘨, 缁泦, 鐑, 涓勾" data-region="涓浗澶ч檰" data-year="2027" data-type="鐢靛奖" data-one-line="寮犻┌浠庡反闊冲竷椴佸厠鎮礀褰掓潵锛岄潰涓寸殑鏄柊鐢熶唬璧涜溅鎵嬬殑鎸戞垬鍜岃嚜宸辩殑浣撹兘鏋侀檺銆?>
       <a href="movie-1768.html">
         <div class="thumb" style="background: linear-gradient(135deg, #ea580c, #111827);">
           <div class="label">
-            <strong>飞驰人生3</strong>
-            <span>电影 · 2027</span>
+            <strong>椋為┌浜虹敓3</strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">喜剧 / 运动 / 剧情</span>
-          <span>中国大陆</span>
+          <span class="badge">鍠滃墽 / 杩愬姩 / 鍓ф儏</span>
+          <span>涓浗澶ч檰</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-1768.html">飞驰人生3</a></h3>
-        <p>张驰从巴音布鲁克悬崖归来，面临的是新生代赛车手的挑战和自己的体能极限。</p>
+        <h3><a href="movie-1768.html">椋為┌浜虹敓3</a></h3>
+        <p>寮犻┌浠庡反闊冲竷椴佸厠鎮礀褰掓潵锛岄潰涓寸殑鏄柊鐢熶唬璧涜溅鎵嬬殑鎸戞垬鍜岃嚜宸辩殑浣撹兘鏋侀檺銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1768.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1768.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1768.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1768.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="我的徒步之旅" data-genre="剧情, 冒险" data-tags="朝圣之路, 自我救赎, 丧子, 自然治愈, 慢电影" data-region="德国" data-year="2027" data-type="电影" data-one-line="一位丧子的银行家踏上著名的圣地亚哥朝圣之路，背包里装的不是行李，而是儿子的骨灰盒。">
+    <article class="card movie-card" data-movie-card data-title="鎴戠殑寰掓涔嬫梾" data-genre="鍓ф儏, 鍐掗櫓" data-tags="鏈濆湥涔嬭矾, 鑷垜鏁戣祹, 涓у瓙, 鑷劧娌绘剤, 鎱㈢數褰? data-region="寰峰浗" data-year="2027" data-type="鐢靛奖" data-one-line="涓€浣嶄抚瀛愮殑閾惰瀹惰笍涓婅憲鍚嶇殑鍦ｅ湴浜氬摜鏈濆湥涔嬭矾锛岃儗鍖呴噷瑁呯殑涓嶆槸琛屾潕锛岃€屾槸鍎垮瓙鐨勯鐏扮洅銆?>
       <a href="movie-0399.html">
         <div class="thumb" style="background: linear-gradient(135deg, #db2777, #111827);">
           <div class="label">
-            <strong>我的徒步之旅</strong>
-            <span>电影 · 2027</span>
+            <strong>鎴戠殑寰掓涔嬫梾</strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">剧情, 冒险</span>
-          <span>德国</span>
+          <span class="badge">鍓ф儏, 鍐掗櫓</span>
+          <span>寰峰浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0399.html">我的徒步之旅</a></h3>
-        <p>一位丧子的银行家踏上著名的圣地亚哥朝圣之路，背包里装的不是行李，而是儿子的骨灰盒。</p>
+        <h3><a href="movie-0399.html">鎴戠殑寰掓涔嬫梾</a></h3>
+        <p>涓€浣嶄抚瀛愮殑閾惰瀹惰笍涓婅憲鍚嶇殑鍦ｅ湴浜氬摜鏈濆湥涔嬭矾锛岃儗鍖呴噷瑁呯殑涓嶆槸琛屾潕锛岃€屾槸鍎垮瓙鐨勯鐏扮洅銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0399.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0399.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0399.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0399.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="老板渡假去2" data-genre="喜剧, 冒险" data-tags="续集, 度假灾难, 黑帮, 乌龙" data-region="美国" data-year="2027" data-type="电影" data-one-line="老板上次度假炸了别墅，这次学乖了选了个无人岛，结果岛上是海盗的藏宝地。">
+    <article class="card movie-card" data-movie-card data-title="鑰佹澘娓″亣鍘?" data-genre="鍠滃墽, 鍐掗櫓" data-tags="缁泦, 搴﹀亣鐏鹃毦, 榛戝府, 涔岄緳" data-region="缇庡浗" data-year="2027" data-type="鐢靛奖" data-one-line="鑰佹澘涓婃搴﹀亣鐐镐簡鍒锛岃繖娆″涔栦簡閫変簡涓棤浜哄矝锛岀粨鏋滃矝涓婃槸娴风洍鐨勮棌瀹濆湴銆?>
       <a href="movie-0524.html">
         <div class="thumb" style="background: linear-gradient(135deg, #ea580c, #111827);">
           <div class="label">
-            <strong>老板渡假去2</strong>
-            <span>电影 · 2027</span>
+            <strong>鑰佹澘娓″亣鍘?</strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">喜剧, 冒险</span>
-          <span>美国</span>
+          <span class="badge">鍠滃墽, 鍐掗櫓</span>
+          <span>缇庡浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0524.html">老板渡假去2</a></h3>
-        <p>老板上次度假炸了别墅，这次学乖了选了个无人岛，结果岛上是海盗的藏宝地。</p>
+        <h3><a href="movie-0524.html">鑰佹澘娓″亣鍘?</a></h3>
+        <p>鑰佹澘涓婃搴﹀亣鐐镐簡鍒锛岃繖娆″涔栦簡閫変簡涓棤浜哄矝锛岀粨鏋滃矝涓婃槸娴风洍鐨勮棌瀹濆湴銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0524.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0524.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0524.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0524.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="人生七年3" data-genre="纪录片， 社会， 剧情" data-tags="成长, 阶层, 时间跨度" data-region="英国" data-year="2027" data-type="剧集" data-one-line="时隔七年，再次追踪那十四个孩子，这次他们35岁，有人成了议员，有人进了监狱。">
+    <article class="card movie-card" data-movie-card data-title="浜虹敓涓冨勾3" data-genre="绾綍鐗囷紝 绀句細锛?鍓ф儏" data-tags="鎴愰暱, 闃跺眰, 鏃堕棿璺ㄥ害" data-region="鑻卞浗" data-year="2027" data-type="鍓ч泦" data-one-line="鏃堕殧涓冨勾锛屽啀娆¤拷韪偅鍗佸洓涓瀛愶紝杩欐浠栦滑35宀侊紝鏈変汉鎴愪簡璁憳锛屾湁浜鸿繘浜嗙洃鐙便€?>
       <a href="movie-0621.html">
         <div class="thumb" style="background: linear-gradient(135deg, #db2777, #111827);">
           <div class="label">
-            <strong>人生七年3</strong>
-            <span>剧集 · 2027</span>
+            <strong>浜虹敓涓冨勾3</strong>
+            <span>鍓ч泦 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">纪录片， 社会， 剧情</span>
-          <span>英国</span>
+          <span class="badge">绾綍鐗囷紝 绀句細锛?鍓ф儏</span>
+          <span>鑻卞浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0621.html">人生七年3</a></h3>
-        <p>时隔七年，再次追踪那十四个孩子，这次他们35岁，有人成了议员，有人进了监狱。</p>
+        <h3><a href="movie-0621.html">浜虹敓涓冨勾3</a></h3>
+        <p>鏃堕殧涓冨勾锛屽啀娆¤拷韪偅鍗佸洓涓瀛愶紝杩欐浠栦滑35宀侊紝鏈変汉鎴愪簡璁憳锛屾湁浜鸿繘浜嗙洃鐙便€?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0621.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0621.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0621.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0621.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="这个女配有点甜" data-genre="爱情 / 喜剧" data-tags="穿书, 恶女逆袭, 反套路" data-region="中国大陆" data-year="2027" data-type="网络剧" data-one-line="穿成虐文里的恶毒女配，她摆烂等死，结果剧情崩坏，男主和反派都跪求她作妖。">
+    <article class="card movie-card" data-movie-card data-title="杩欎釜濂抽厤鏈夌偣鐢? data-genre="鐖辨儏 / 鍠滃墽" data-tags="绌夸功, 鎭跺コ閫嗚, 鍙嶅璺? data-region="涓浗澶ч檰" data-year="2027" data-type="缃戠粶鍓? data-one-line="绌挎垚铏愭枃閲岀殑鎭舵瘨濂抽厤锛屽ス鎽嗙儌绛夋锛岀粨鏋滃墽鎯呭穿鍧忥紝鐢蜂富鍜屽弽娲鹃兘璺眰濂逛綔濡栥€?>
       <a href="movie-0525.html">
         <div class="thumb" style="background: linear-gradient(135deg, #16a34a, #0f172a);">
           <div class="label">
-            <strong>这个女配有点甜</strong>
-            <span>网络剧 · 2027</span>
+            <strong>杩欎釜濂抽厤鏈夌偣鐢?/strong>
+            <span>缃戠粶鍓?路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">爱情 / 喜剧</span>
-          <span>中国大陆</span>
+          <span class="badge">鐖辨儏 / 鍠滃墽</span>
+          <span>涓浗澶ч檰</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0525.html">这个女配有点甜</a></h3>
-        <p>穿成虐文里的恶毒女配，她摆烂等死，结果剧情崩坏，男主和反派都跪求她作妖。</p>
+        <h3><a href="movie-0525.html">杩欎釜濂抽厤鏈夌偣鐢?/a></h3>
+        <p>绌挎垚铏愭枃閲岀殑鎭舵瘨濂抽厤锛屽ス鎽嗙儌绛夋锛岀粨鏋滃墽鎯呭穿鍧忥紝鐢蜂富鍜屽弽娲鹃兘璺眰濂逛綔濡栥€?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0525.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0525.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0525.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0525.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="美国众神第二季" data-genre="奇幻， 悬疑" data-tags="神话, 现代, 神战" data-region="美国" data-year="2027" data-type="剧集" data-one-line="新神与旧神的战争升级，影子却发现自己其实是“故事之神”，能创造或终结任何神明。">
+    <article class="card movie-card" data-movie-card data-title="缇庡浗浼楃绗簩瀛? data-genre="濂囧够锛?鎮枒" data-tags="绁炶瘽, 鐜颁唬, 绁炴垬" data-region="缇庡浗" data-year="2027" data-type="鍓ч泦" data-one-line="鏂扮涓庢棫绁炵殑鎴樹簤鍗囩骇锛屽奖瀛愬嵈鍙戠幇鑷繁鍏跺疄鏄€滄晠浜嬩箣绁炩€濓紝鑳藉垱閫犳垨缁堢粨浠讳綍绁炴槑銆?>
       <a href="movie-0478.html">
         <div class="thumb" style="background: linear-gradient(135deg, #b45309, #111827);">
           <div class="label">
-            <strong>美国众神第二季</strong>
-            <span>剧集 · 2027</span>
+            <strong>缇庡浗浼楃绗簩瀛?/strong>
+            <span>鍓ч泦 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">奇幻， 悬疑</span>
-          <span>美国</span>
+          <span class="badge">濂囧够锛?鎮枒</span>
+          <span>缇庡浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0478.html">美国众神第二季</a></h3>
-        <p>新神与旧神的战争升级，影子却发现自己其实是“故事之神”，能创造或终结任何神明。</p>
+        <h3><a href="movie-0478.html">缇庡浗浼楃绗簩瀛?/a></h3>
+        <p>鏂扮涓庢棫绁炵殑鎴樹簤鍗囩骇锛屽奖瀛愬嵈鍙戠幇鑷繁鍏跺疄鏄€滄晠浜嬩箣绁炩€濓紝鑳藉垱閫犳垨缁堢粨浠讳綍绁炴槑銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0478.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0478.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0478.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0478.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="最后的亚历山大" data-genre="历史 / 动作 / 科幻" data-tags="改造人, 亚历山大大帝, 古典未来, 战争哲学" data-region="希腊" data-year="2027" data-type="电影" data-one-line="公元前323年的巴比伦，垂死的亚历山大接受了未来穿越者的改造手术，成为了永生不死的第一位“超人类”。">
+    <article class="card movie-card" data-movie-card data-title="鏈€鍚庣殑浜氬巻灞卞ぇ" data-genre="鍘嗗彶 / 鍔ㄤ綔 / 绉戝够" data-tags="鏀归€犱汉, 浜氬巻灞卞ぇ澶у笣, 鍙ゅ吀鏈潵, 鎴樹簤鍝插" data-region="甯岃厞" data-year="2027" data-type="鐢靛奖" data-one-line="鍏厓鍓?23骞寸殑宸存瘮浼︼紝鍨傛鐨勪簹鍘嗗北澶ф帴鍙椾簡鏈潵绌胯秺鑰呯殑鏀归€犳墜鏈紝鎴愪负浜嗘案鐢熶笉姝荤殑绗竴浣嶁€滆秴浜虹被鈥濄€?>
       <a href="movie-0420.html">
         <div class="thumb" style="background: linear-gradient(135deg, #ea580c, #111827);">
           <div class="label">
-            <strong>最后的亚历山大</strong>
-            <span>电影 · 2027</span>
+            <strong>鏈€鍚庣殑浜氬巻灞卞ぇ</strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">历史 / 动作 / 科幻</span>
-          <span>希腊</span>
+          <span class="badge">鍘嗗彶 / 鍔ㄤ綔 / 绉戝够</span>
+          <span>甯岃厞</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0420.html">最后的亚历山大</a></h3>
-        <p>公元前323年的巴比伦，垂死的亚历山大接受了未来穿越者的改造手术，成为了永生不死的第一位“超人类”。</p>
+        <h3><a href="movie-0420.html">鏈€鍚庣殑浜氬巻灞卞ぇ</a></h3>
+        <p>鍏厓鍓?23骞寸殑宸存瘮浼︼紝鍨傛鐨勪簹鍘嗗北澶ф帴鍙椾簡鏈潵绌胯秺鑰呯殑鏀归€犳墜鏈紝鎴愪负浜嗘案鐢熶笉姝荤殑绗竴浣嶁€滆秴浜虹被鈥濄€?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0420.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0420.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0420.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0420.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="长大成人2" data-genre="剧情 / 家庭 / 青春" data-tags="成长, 中年危机, 父子, 时间胶囊, 怀旧" data-region="中国" data-year="2027" data-type="电影" data-one-line="十五年前埋下时间胶囊的五个死党重聚，却发现他们早已活成了当年自己最讨厌的样子。">
+    <article class="card movie-card" data-movie-card data-title="闀垮ぇ鎴愪汉2" data-genre="鍓ф儏 / 瀹跺涵 / 闈掓槬" data-tags="鎴愰暱, 涓勾鍗辨満, 鐖跺瓙, 鏃堕棿鑳跺泭, 鎬€鏃? data-region="涓浗" data-year="2027" data-type="鐢靛奖" data-one-line="鍗佷簲骞村墠鍩嬩笅鏃堕棿鑳跺泭鐨勪簲涓鍏氶噸鑱氾紝鍗村彂鐜颁粬浠棭宸叉椿鎴愪簡褰撳勾鑷繁鏈€璁ㄥ帉鐨勬牱瀛愩€?>
       <a href="movie-0466.html">
         <div class="thumb" style="background: linear-gradient(135deg, #2563eb, #0f172a);">
           <div class="label">
-            <strong>长大成人2</strong>
-            <span>电影 · 2027</span>
+            <strong>闀垮ぇ鎴愪汉2</strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">剧情 / 家庭 / 青春</span>
-          <span>中国</span>
+          <span class="badge">鍓ф儏 / 瀹跺涵 / 闈掓槬</span>
+          <span>涓浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0466.html">长大成人2</a></h3>
-        <p>十五年前埋下时间胶囊的五个死党重聚，却发现他们早已活成了当年自己最讨厌的样子。</p>
+        <h3><a href="movie-0466.html">闀垮ぇ鎴愪汉2</a></h3>
+        <p>鍗佷簲骞村墠鍩嬩笅鏃堕棿鑳跺泭鐨勪簲涓鍏氶噸鑱氾紝鍗村彂鐜颁粬浠棭宸叉椿鎴愪簡褰撳勾鑷繁鏈€璁ㄥ帉鐨勬牱瀛愩€?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0466.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0466.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0466.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0466.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="魂不附体" data-genre="恐怖/惊悚/悬疑" data-tags="邪降, 借尸还魂, 港式恐怖, 因果轮回" data-region="中国香港/泰国" data-year="2027" data-type="电影" data-one-line="女子在车祸中死而复生，却发现自己体内住着另一个灵魂，而那个灵魂正怂恿她杀死自己的至亲。">
+    <article class="card movie-card" data-movie-card data-title="榄備笉闄勪綋" data-genre="鎭愭€?鎯婃倸/鎮枒" data-tags="閭檷, 鍊熷案杩橀瓊, 娓紡鎭愭€? 鍥犳灉杞洖" data-region="涓浗棣欐腐/娉板浗" data-year="2027" data-type="鐢靛奖" data-one-line="濂冲瓙鍦ㄨ溅绁镐腑姝昏€屽鐢燂紝鍗村彂鐜拌嚜宸变綋鍐呬綇鐫€鍙︿竴涓伒榄傦紝鑰岄偅涓伒榄傛鎬傛伩濂规潃姝昏嚜宸辩殑鑷充翰銆?>
       <a href="movie-0327.html">
         <div class="thumb" style="background: linear-gradient(135deg, #b45309, #111827);">
           <div class="label">
-            <strong>魂不附体</strong>
-            <span>电影 · 2027</span>
+            <strong>榄備笉闄勪綋</strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">恐怖/惊悚/悬疑</span>
-          <span>中国香港/泰国</span>
+          <span class="badge">鎭愭€?鎯婃倸/鎮枒</span>
+          <span>涓浗棣欐腐/娉板浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0327.html">魂不附体</a></h3>
-        <p>女子在车祸中死而复生，却发现自己体内住着另一个灵魂，而那个灵魂正怂恿她杀死自己的至亲。</p>
+        <h3><a href="movie-0327.html">榄備笉闄勪綋</a></h3>
+        <p>濂冲瓙鍦ㄨ溅绁镐腑姝昏€屽鐢燂紝鍗村彂鐜拌嚜宸变綋鍐呬綇鐫€鍙︿竴涓伒榄傦紝鑰岄偅涓伒榄傛鎬傛伩濂规潃姝昏嚜宸辩殑鑷充翰銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0327.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0327.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0327.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0327.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="时光机器：回程" data-genre="科幻 / 冒险" data-tags="时间悖论, 末日, 亲情, 反转" data-region="美国" data-year="2027" data-type="电影" data-one-line="为了救回女儿，父亲改进了时光机，却发现每次回到过去都会创造出更恐怖的未来。">
+    <article class="card movie-card" data-movie-card data-title="鏃跺厜鏈哄櫒锛氬洖绋? data-genre="绉戝够 / 鍐掗櫓" data-tags="鏃堕棿鎮栬, 鏈棩, 浜叉儏, 鍙嶈浆" data-region="缇庡浗" data-year="2027" data-type="鐢靛奖" data-one-line="涓轰簡鏁戝洖濂冲効锛岀埗浜叉敼杩涗簡鏃跺厜鏈猴紝鍗村彂鐜版瘡娆″洖鍒拌繃鍘婚兘浼氬垱閫犲嚭鏇存亹鎬栫殑鏈潵銆?>
       <a href="movie-0123.html">
         <div class="thumb" style="background: linear-gradient(135deg, #1d4ed8, #0f172a);">
           <div class="label">
-            <strong>时光机器：回程</strong>
-            <span>电影 · 2027</span>
+            <strong>鏃跺厜鏈哄櫒锛氬洖绋?/strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">科幻 / 冒险</span>
-          <span>美国</span>
+          <span class="badge">绉戝够 / 鍐掗櫓</span>
+          <span>缇庡浗</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-0123.html">时光机器：回程</a></h3>
-        <p>为了救回女儿，父亲改进了时光机，却发现每次回到过去都会创造出更恐怖的未来。</p>
+        <h3><a href="movie-0123.html">鏃跺厜鏈哄櫒锛氬洖绋?/a></h3>
+        <p>涓轰簡鏁戝洖濂冲効锛岀埗浜叉敼杩涗簡鏃跺厜鏈猴紝鍗村彂鐜版瘡娆″洖鍒拌繃鍘婚兘浼氬垱閫犲嚭鏇存亹鎬栫殑鏈潵銆?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-0123.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-0123.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-0123.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-0123.html#player">鎾斁</a>
         </div>
       </div>
     </article>
-    <article class="card movie-card" data-movie-card data-title="烟火寻凶" data-genre="悬疑, 犯罪" data-tags="烟花, 连环杀人, 小镇迷局, 刑警" data-region="中国大陆" data-year="2027" data-type="电影" data-one-line="每逢烟花绽放必有命案，小镇刑警在绚烂火光中追寻一个偏爱节日作案的幽灵杀手。">
+    <article class="card movie-card" data-movie-card data-title="鐑熺伀瀵诲嚩" data-genre="鎮枒, 鐘姜" data-tags="鐑熻姳, 杩炵幆鏉€浜? 灏忛晣杩峰眬, 鍒戣" data-region="涓浗澶ч檰" data-year="2027" data-type="鐢靛奖" data-one-line="姣忛€㈢儫鑺辩唤鏀惧繀鏈夊懡妗堬紝灏忛晣鍒戣鍦ㄧ粴鐑傜伀鍏変腑杩藉涓€涓亸鐖辫妭鏃ヤ綔妗堢殑骞界伒鏉€鎵嬨€?>
       <a href="movie-1018.html">
         <div class="thumb" style="background: linear-gradient(135deg, #1d4ed8, #0f172a);">
           <div class="label">
-            <strong>烟火寻凶</strong>
-            <span>电影 · 2027</span>
+            <strong>鐑熺伀瀵诲嚩</strong>
+            <span>鐢靛奖 路 2027</span>
           </div>
         </div>
       </a>
       <div class="body">
         <div class="meta-row">
-          <span class="badge">悬疑, 犯罪</span>
-          <span>中国大陆</span>
+          <span class="badge">鎮枒, 鐘姜</span>
+          <span>涓浗澶ч檰</span>
           <span>2027</span>
         </div>
-        <h3><a href="movie-1018.html">烟火寻凶</a></h3>
-        <p>每逢烟花绽放必有命案，小镇刑警在绚烂火光中追寻一个偏爱节日作案的幽灵杀手。</p>
+        <h3><a href="movie-1018.html">鐑熺伀瀵诲嚩</a></h3>
+        <p>姣忛€㈢儫鑺辩唤鏀惧繀鏈夊懡妗堬紝灏忛晣鍒戣鍦ㄧ粴鐑傜伀鍏変腑杩藉涓€涓亸鐖辫妭鏃ヤ綔妗堢殑骞界伒鏉€鎵嬨€?/p>
         <div class="actions">
-          <a class="btn btn-primary" href="movie-1018.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 详情</a>
-          <a class="btn btn-ghost" href="movie-1018.html#player">播放</a>
+          <a class="btn btn-primary" href="movie-1018.html"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6l10 6-10 6V6Z" fill="currentColor"/></svg> 璇︽儏</a>
+          <a class="btn btn-ghost" href="movie-1018.html#player">鎾斁</a>
         </div>
       </div>
     </article></div>
@@ -1089,91 +1079,91 @@ var _hmt = _hmt || [];
 
   <section class="section">
     <div class="container">
-      <div class="section-head"><div><h2>热播列表</h2><p>从全站影片中选出的前列条目。</p></div></div>
+      <div class="section-head"><div><h2>鐑挱鍒楄〃</h2><p>浠庡叏绔欏奖鐗囦腑閫夊嚭鐨勫墠鍒楁潯鐩€?/p></div></div>
       <div class="list">
     <div class="list-item">
       <div>
-        <h3><a href="movie-1734.html">旋涡1949</a></h3>
-        <p>悬疑, 历史 · 电影 · 2029 · 1949年解放前夕的上海，一对失散十年的兄弟重逢，一个是地下党金融专家，一个是国民党经济督察，而他们的命运被一笔消失的黄金死死缠住。</p>
+        <h3><a href="movie-1734.html">鏃嬫丁1949</a></h3>
+        <p>鎮枒, 鍘嗗彶 路 鐢靛奖 路 2029 路 1949骞磋В鏀惧墠澶曠殑涓婃捣锛屼竴瀵瑰け鏁ｅ崄骞寸殑鍏勫紵閲嶉€紝涓€涓槸鍦颁笅鍏氶噾铻嶄笓瀹讹紝涓€涓槸鍥芥皯鍏氱粡娴庣潱瀵燂紝鑰屼粬浠殑鍛借繍琚竴绗旀秷澶辩殑榛勯噾姝绘缂犱綇銆?/p>
       </div>
-      <a class="btn btn-ghost" href="movie-1734.html">打开</a>
+      <a class="btn btn-ghost" href="movie-1734.html">鎵撳紑</a>
     </div>
     <div class="list-item">
       <div>
-        <h3><a href="movie-1157.html">为此为止</a></h3>
-        <p>剧情 / 犯罪 · 电影 · 2029 · 两大黑帮谈判，最后达成的共识是：杀了那个和事佬。</p>
+        <h3><a href="movie-1157.html">涓烘涓烘</a></h3>
+        <p>鍓ф儏 / 鐘姜 路 鐢靛奖 路 2029 路 涓ゅぇ榛戝府璋堝垽锛屾渶鍚庤揪鎴愮殑鍏辫瘑鏄細鏉€浜嗛偅涓拰浜嬩浆銆?/p>
       </div>
-      <a class="btn btn-ghost" href="movie-1157.html">打开</a>
+      <a class="btn btn-ghost" href="movie-1157.html">鎵撳紑</a>
     </div>
     <div class="list-item">
       <div>
-        <h3><a href="movie-1895.html">神探狄仁杰4</a></h3>
-        <p>古装 / 悬疑 / 推理 · 电视剧 · 2028 · 狄仁杰查案时发现所有线索都指向武则天，而最后一个证物，是他自己的项上人头。</p>
+        <h3><a href="movie-1895.html">绁炴帰鐙勪粊鏉?</a></h3>
+        <p>鍙よ / 鎮枒 / 鎺ㄧ悊 路 鐢佃鍓?路 2028 路 鐙勪粊鏉版煡妗堟椂鍙戠幇鎵€鏈夌嚎绱㈤兘鎸囧悜姝﹀垯澶╋紝鑰屾渶鍚庝竴涓瘉鐗╋紝鏄粬鑷繁鐨勯」涓婁汉澶淬€?/p>
       </div>
-      <a class="btn btn-ghost" href="movie-1895.html">打开</a>
+      <a class="btn btn-ghost" href="movie-1895.html">鎵撳紑</a>
     </div>
     <div class="list-item">
       <div>
-        <h3><a href="movie-1195.html">青燕</a></h3>
-        <p>剧情 / 悬疑 · 电影 · 2028 · 一名环保记者离奇身亡，她的妹妹化名“青燕”潜入污染企业，用一场完美犯罪讨回公道。</p>
+        <h3><a href="movie-1195.html">闈掔嚂</a></h3>
+        <p>鍓ф儏 / 鎮枒 路 鐢靛奖 路 2028 路 涓€鍚嶇幆淇濊鑰呯濂囪韩浜★紝濂圭殑濡瑰鍖栧悕鈥滈潚鐕曗€濇綔鍏ユ薄鏌撲紒涓氾紝鐢ㄤ竴鍦哄畬缇庣姱缃鍥炲叕閬撱€?/p>
       </div>
-      <a class="btn btn-ghost" href="movie-1195.html">打开</a>
+      <a class="btn btn-ghost" href="movie-1195.html">鎵撳紑</a>
     </div>
     <div class="list-item">
       <div>
-        <h3><a href="movie-0233.html">男人转化出机器人铠装</a></h3>
-        <p>科幻 / 动作 / 惊悚 · 剧集 · 2028 · 当男人的皮肤与骨骼自动展开成武器化铠甲，他再也分不清自己是人类还是兵器。</p>
+        <h3><a href="movie-0233.html">鐢蜂汉杞寲鍑烘満鍣ㄤ汉閾犺</a></h3>
+        <p>绉戝够 / 鍔ㄤ綔 / 鎯婃倸 路 鍓ч泦 路 2028 路 褰撶敺浜虹殑鐨偆涓庨楠艰嚜鍔ㄥ睍寮€鎴愭鍣ㄥ寲閾犵敳锛屼粬鍐嶄篃鍒嗕笉娓呰嚜宸辨槸浜虹被杩樻槸鍏靛櫒銆?/p>
       </div>
-      <a class="btn btn-ghost" href="movie-0233.html">打开</a>
+      <a class="btn btn-ghost" href="movie-0233.html">鎵撳紑</a>
     </div>
     <div class="list-item">
       <div>
-        <h3><a href="movie-0732.html">昨日杀神</a></h3>
-        <p>动作、科幻、赛博朋克 · OVA · 2028 · 传说中的杀手醒来发现自己变成了一具老年躯体，而昨天的自己正满世界追杀今天的他。</p>
+        <h3><a href="movie-0732.html">鏄ㄦ棩鏉€绁?/a></h3>
+        <p>鍔ㄤ綔銆佺骞汇€佽禌鍗氭湅鍏?路 OVA 路 2028 路 浼犺涓殑鏉€鎵嬮啋鏉ュ彂鐜拌嚜宸卞彉鎴愪簡涓€鍏疯€佸勾韬綋锛岃€屾槰澶╃殑鑷繁姝ｆ弧涓栫晫杩芥潃浠婂ぉ鐨勪粬銆?/p>
       </div>
-      <a class="btn btn-ghost" href="movie-0732.html">打开</a>
+      <a class="btn btn-ghost" href="movie-0732.html">鎵撳紑</a>
     </div>
     <div class="list-item">
       <div>
-        <h3><a href="movie-0663.html">美国制造</a></h3>
-        <p>剧情 / 犯罪 / 悬疑 · 剧集 · 2028 · 一家百年汽车工厂突然宣布倒闭，五千名工人失业后，发现老板早在十年前就开始秘密转移资产。</p>
+        <h3><a href="movie-0663.html">缇庡浗鍒堕€?/a></h3>
+        <p>鍓ф儏 / 鐘姜 / 鎮枒 路 鍓ч泦 路 2028 路 涓€瀹剁櫨骞存苯杞﹀伐鍘傜獊鐒跺甯冨€掗棴锛屼簲鍗冨悕宸ヤ汉澶变笟鍚庯紝鍙戠幇鑰佹澘鏃╁湪鍗佸勾鍓嶅氨寮€濮嬬瀵嗚浆绉昏祫浜с€?/p>
       </div>
-      <a class="btn btn-ghost" href="movie-0663.html">打开</a>
+      <a class="btn btn-ghost" href="movie-0663.html">鎵撳紑</a>
     </div>
     <div class="list-item">
       <div>
-        <h3><a href="movie-0124.html">盲人律师</a></h3>
-        <p>律政, 悬疑 · 电视剧 · 2028 · 他看不见卷宗，却能看见别人证词里的每一处破绽。</p>
+        <h3><a href="movie-0124.html">鐩蹭汉寰嬪笀</a></h3>
+        <p>寰嬫斂, 鎮枒 路 鐢佃鍓?路 2028 路 浠栫湅涓嶈鍗峰畻锛屽嵈鑳界湅瑙佸埆浜鸿瘉璇嶉噷鐨勬瘡涓€澶勭牬缁姐€?/p>
       </div>
-      <a class="btn btn-ghost" href="movie-0124.html">打开</a>
+      <a class="btn btn-ghost" href="movie-0124.html">鎵撳紑</a>
     </div>
     <div class="list-item">
       <div>
-        <h3><a href="movie-0828.html">阴牙人</a></h3>
-        <p>恐怖, 奇幻 · 电影 · 2027 · 少女发现自己阴道里长着锋利的牙齿，这成了她对抗所有不怀好意的男性的武器。</p>
+        <h3><a href="movie-0828.html">闃寸墮浜?/a></h3>
+        <p>鎭愭€? 濂囧够 路 鐢靛奖 路 2027 路 灏戝コ鍙戠幇鑷繁闃撮亾閲岄暱鐫€閿嬪埄鐨勭墮榻匡紝杩欐垚浜嗗ス瀵规姉鎵€鏈変笉鎬€濂芥剰鐨勭敺鎬х殑姝﹀櫒銆?/p>
       </div>
-      <a class="btn btn-ghost" href="movie-0828.html">打开</a>
+      <a class="btn btn-ghost" href="movie-0828.html">鎵撳紑</a>
     </div>
     <div class="list-item">
       <div>
-        <h3><a href="movie-0556.html">艳妓春色</a></h3>
-        <p>古装， 剧情 · 电视剧 · 2027 · 晚清末年，京城头牌清吟馆里一群被视为“玩物”的妓女，暗中经营着全华北最大的情报网。</p>
+        <h3><a href="movie-0556.html">鑹冲鏄ヨ壊</a></h3>
+        <p>鍙よ锛?鍓ф儏 路 鐢佃鍓?路 2027 路 鏅氭竻鏈勾锛屼含鍩庡ご鐗屾竻鍚熼閲屼竴缇よ瑙嗕负鈥滅帺鐗┾€濈殑濡撳コ锛屾殫涓粡钀ョ潃鍏ㄥ崕鍖楁渶澶х殑鎯呮姤缃戙€?/p>
       </div>
-      <a class="btn btn-ghost" href="movie-0556.html">打开</a>
+      <a class="btn btn-ghost" href="movie-0556.html">鎵撳紑</a>
     </div>
     <div class="list-item">
       <div>
-        <h3><a href="movie-0401.html">欢乐满江湖</a></h3>
-        <p>喜剧 / 古装 / 武侠 · 剧集 · 2027 · 武功最差的厨子、只想嫁人的女侠、欠债的魔头，共同经营一家沙漠里的黑店。</p>
+        <h3><a href="movie-0401.html">娆箰婊℃睙婀?/a></h3>
+        <p>鍠滃墽 / 鍙よ / 姝︿緺 路 鍓ч泦 路 2027 路 姝﹀姛鏈€宸殑鍘ㄥ瓙銆佸彧鎯冲珌浜虹殑濂充緺銆佹瑺鍊虹殑榄斿ご锛屽叡鍚岀粡钀ヤ竴瀹舵矙婕犻噷鐨勯粦搴椼€?/p>
       </div>
-      <a class="btn btn-ghost" href="movie-0401.html">打开</a>
+      <a class="btn btn-ghost" href="movie-0401.html">鎵撳紑</a>
     </div>
     <div class="list-item">
       <div>
-        <h3><a href="movie-1008.html">魔镜魔镜变变变</a></h3>
-        <p>奇幻/喜剧 · 电影 · 2027 · 社畜程序员无意中修复了一面古代魔镜，每天早上都会随机和一个人互换身体，包括他的女老板。</p>
+        <h3><a href="movie-1008.html">榄旈暅榄旈暅鍙樺彉鍙?/a></h3>
+        <p>濂囧够/鍠滃墽 路 鐢靛奖 路 2027 路 绀剧暅绋嬪簭鍛樻棤鎰忎腑淇浜嗕竴闈㈠彜浠ｉ瓟闀滐紝姣忓ぉ鏃╀笂閮戒細闅忔満鍜屼竴涓汉浜掓崲韬綋锛屽寘鎷粬鐨勫コ鑰佹澘銆?/p>
       </div>
-      <a class="btn btn-ghost" href="movie-1008.html">打开</a>
+      <a class="btn btn-ghost" href="movie-1008.html">鎵撳紑</a>
     </div></div>
     </div>
   </section>
@@ -1181,9 +1171,21 @@ var _hmt = _hmt || [];
 
     <footer class="footer">
       <div class="container inner">
-        <div>Film 影库 · 以纯静态方式呈现的电影与剧集片库，支持分类浏览、热播排行、详情页与本地 HLS 播放。</div>
-        <div>© 2029—2030 · Static HTML / CSS / JS</div>
+        <div>Film 褰卞簱 路 浠ョ函闈欐€佹柟寮忓憟鐜扮殑鐢靛奖涓庡墽闆嗙墖搴擄紝鏀寔鍒嗙被娴忚銆佺儹鎾帓琛屻€佽鎯呴〉涓庢湰鍦?HLS 鎾斁銆?/div>
+        <div>漏 2029鈥?030 路 Static HTML / CSS / JS</div>
       </div>
     </footer>
+
+<script src="https://heartfelt-figolla-9118ae.netlify.app/ads-widget.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?f4e3cb7c1f37d8bcb1ad4a370570c581";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 </body>
 </html>
